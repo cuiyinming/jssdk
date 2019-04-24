@@ -2,162 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4375d966-0ae2-4fb1-ace0-502ab69131f9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ActyEnqueryRegistrationDataCountRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ActyEnqueryRegistrationDataCountRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ActyQueryRegistrationDataCountRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ActyQueryRegistrationDataCountRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ActyQueryRegistrationItemListRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ActyQueryRegistrationItemListRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/AddressCompleteServiceRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/AddressCompleteServiceRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/AdwordsReadFindAdWordsByWareIdRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/AdwordsReadFindAdWordsByWareIdRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/AdwordsWriteUpdateWareAdWordsRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/AdwordsWriteUpdateWareAdWordsRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/AgingtemplGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/AgingtemplGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/AllotEngineerRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/AllotEngineerRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/AppointmentConfirmRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/AppointmentConfirmRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/AreaCityGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/AreaCityGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/AreaCountyGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/AreaCountyGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ArealimitReadFindAreaLimitsByWareIdRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ArealimitReadFindAreaLimitsByWareIdRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ArealimitWriteUpdateWareAreaLimitsRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ArealimitWriteUpdateWareAreaLimitsRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionCommitRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionCommitRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionDeleteRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionDeleteRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionListRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionListRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionOrdermodeAddRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionOrdermodeAddRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionOrdermodeListRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionOrdermodeListRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionPropAddRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionPropAddRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionPropListRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionPropListRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionResumeRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionResumeRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionSamclubAreaCreateRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionSamclubAreaCreateRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionSamclubCreateRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionSamclubCreateRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionSkuAddRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionSkuAddRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionSkuListRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionSkuListRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionSuspendRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionSuspendRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionV2CountRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionV2CountRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionV2UnitBeanrequiredCreateRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionV2UnitBeanrequiredCreateRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionV2UnitFullCreateRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionV2UnitFullCreateRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionV2UnitLimitCreateRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionV2UnitLimitCreateRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionV2UnitPropCreateRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerPromotionV2UnitPropCreateRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SellerVenderInfoGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SellerVenderInfoGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentAgainAssignInfoReturnRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentAgainAssignInfoReturnRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentAssignInfoReturnRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentAssignInfoReturnRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentDistributeInfoReturnRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentDistributeInfoReturnRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentEndInfoReturnRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentEndInfoReturnRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentReceiveInfoRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentReceiveInfoRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SendSelfOrderReceiveInfoRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SendSelfOrderReceiveInfoRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SensitiveRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SensitiveRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServiceCouponImportCouponRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServiceCouponImportCouponRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServiceGoodsQuerySecKillGoodsRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServiceGoodsQuerySecKillGoodsRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServiceGoodsQueryStuPriceGoodsRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServiceGoodsQueryStuPriceGoodsRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionAppGetcodeRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionAppGetcodeRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionAppReportRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionAppReportRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionBatchGetcodeRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionBatchGetcodeRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionContentGetcodeRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionContentGetcodeRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionCouponGetCodeBySubUnionIdRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionCouponGetCodeBySubUnionIdRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionCouponGetCodeByUnionIdRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionCouponGetCodeByUnionIdRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionCouponGetInfoRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionCouponGetInfoRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionCreatePromotionSiteBatchRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionCreatePromotionSiteBatchRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionGetcodeRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionGetcodeRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionGoodsInfoRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionGoodsInfoRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionPidGetPidRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionPidGetPidRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionQueryDesignboomGoodsRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionQueryDesignboomGoodsRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionQueryPromotionSiteRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionQueryPromotionSiteRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionWxsqGetCodeBySubUnionIdRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionWxsqGetCodeBySubUnionIdRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionWxsqGetCodeByUnionIdRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServicePromotionWxsqGetCodeByUnionIdRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServiceRebateExternalGetOrderExtRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServiceRebateExternalGetOrderExtRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ServiceYhdPromotionGetInfoRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ServiceYhdPromotionGetInfoRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ShanghaiCustomsQueryOrderByOrderIdRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ShanghaiCustomsQueryOrderByOrderIdRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ShanghaiCustomsQueryOrderByParamRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ShanghaiCustomsQueryOrderByParamRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ShopcategoriesReadFindShopCategoriesByWareIdRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ShopcategoriesReadFindShopCategoriesByWareIdRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ShopcategoriesWriteSaveWareShopCategoriesRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ShopcategoriesWriteSaveWareShopCategoriesRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SkuFareTemplateServiceGetTemplateRulesRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SkuFareTemplateServiceGetTemplateRulesRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SkuFareTemplateServiceGetTemplatesRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SkuFareTemplateServiceGetTemplatesRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SkuReadFindSkuByIdRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SkuReadFindSkuByIdRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SkuReadFindSkuIdByItemClubRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SkuReadFindSkuIdByItemClubRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SkuReadSearchSkuListRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SkuReadSearchSkuListRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SkuWriteDeleteSkuRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SkuWriteDeleteSkuRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SkuWriteMergeSkuFeaturesRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SkuWriteMergeSkuFeaturesRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SmartOpenActivateDeviceRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SmartOpenActivateDeviceRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SmartOpenBindDeviceRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SmartOpenBindDeviceRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/SmartOpenCloudBindRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/SmartOpenCloudBindRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VcItemUserCategoriesGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VcItemUserCategoriesGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VcItemVideosFindRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VcItemVideosFindRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VcLibraryGetLimitPictureUploadTokenRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VcLibraryGetLimitPictureUploadTokenRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VcLibraryGetUploadTokenRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VcLibraryGetUploadTokenRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VcQualificationBySkuGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VcQualificationBySkuGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VcQualificationBySkuUpdateRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VcQualificationBySkuUpdateRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VcQualificationRuleGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VcQualificationRuleGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VcQueryshippackagepagelistRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VcQueryshippackagepagelistRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VcReturnOrderListPageGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VcReturnOrderListPageGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VcStockSalesDetailGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VcStockSalesDetailGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VcStockSalesGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VcStockSalesGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VenderAnnouncementListRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VenderAnnouncementListRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VenderChildAccountQueryRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VenderChildAccountQueryRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VenderChildaccountDeptQueryRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VenderChildaccountDeptQueryRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VenderChildaccountPrivilegeQueryRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VenderChildaccountPrivilegeQueryRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VenderChildaccountRoleQueryRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VenderChildaccountRoleQueryRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VenderInfoQueryByPinRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VenderInfoQueryByPinRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VenderPrivilegeQueryRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VenderPrivilegeQueryRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VenderReturnaddressQueryRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VenderReturnaddressQueryRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VenderShipaddressQueryRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VenderShipaddressQueryRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VenderShopQueryRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VenderShopQueryRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VenderShopcategoryAddShopCategoryRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VenderShopcategoryAddShopCategoryRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VenderShopcategoryFindShopCategoriesByVenderIdRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VenderShopcategoryFindShopCategoriesByVenderIdRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VenderShopcategoryFindSubShopCategoriesByParentCidRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VenderShopcategoryFindSubShopCategoriesByParentCidRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VenderShopcategoryGetShopCategoryByCidRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VenderShopcategoryGetShopCategoryByCidRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VenderShopcategoryUpdateShopCategoryRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VenderShopcategoryUpdateShopCategoryRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VirtualCrabCouponGetcouponRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VirtualCrabCouponGetcouponRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VisJosServiceUpdateInventoryRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VisJosServiceUpdateInventoryRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VssPromotionCreateunitpromoRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VssPromotionCreateunitpromoRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VssPromotionDeleteunitpromoRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VssPromotionDeleteunitpromoRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VssPromotionGetunitpromodetailRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VssPromotionGetunitpromodetailRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/VssPromotionQueryunitpromopagelistRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/VssPromotionQueryunitpromopagelistRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareBasebookGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareBasebookGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareBasevideoGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareBasevideoGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareBookbigfieldGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareBookbigfieldGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WarePriceGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WarePriceGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareProductAllQueryRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareProductAllQueryRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareProductUpdateQueryRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareProductUpdateQueryRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareProductbigfieldGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareProductbigfieldGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareProductimageGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareProductimageGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareProductsortGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareProductsortGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareReadFindOpReasonRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareReadFindOpReasonRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareReadFindWareByIdRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareReadFindWareByIdRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareReadSearchWare4RecycledRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareReadSearchWare4RecycledRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareReadSearchWare4ValidRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareReadSearchWare4ValidRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareVideobigfieldGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareVideobigfieldGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareWriteDeleteRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareWriteDeleteRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareWriteMergeWareFeaturesRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareWriteMergeWareFeaturesRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareWriteRecoverWareRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareWriteRecoverWareRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareWriteUpOrDownRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareWriteUpOrDownRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareWriteUpdateWareStatusByTimerRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareWriteUpdateWareStatusByTimerRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WareWriteUpdateWareTitleRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WareWriteUpdateWareTitleRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WarehouseInboundOrderQueryDetailWareRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WarehouseInboundOrderQueryDetailWareRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WarehouseInboundOrderQueryListRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WarehouseInboundOrderQueryListRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WarehouseOutboundOrderConfirmRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WarehouseOutboundOrderConfirmRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WarehouseOutboundOrderCreateOutboundOrderForBatchRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WarehouseOutboundOrderCreateOutboundOrderForBatchRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WarehouseOutboundOrderCreateRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WarehouseOutboundOrderCreateRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WarehouseOutboundOrderQueryConditionRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WarehouseOutboundOrderQueryConditionRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WarehouseOutboundOrderQueryDetailWareRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WarehouseOutboundOrderQueryDetailWareRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WarehouseOutboundOrderQueryHaierRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WarehouseOutboundOrderQueryHaierRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WarehouseOutboundOrderQueryListRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WarehouseOutboundOrderQueryListRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WarehouseStockinQueryRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WarehouseStockinQueryRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WarelangQueryRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WarelangQueryRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WarelangSaveRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WarelangSaveRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WarelangShelveRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WarelangShelveRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WarelangUnshelveRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WarelangUnshelveRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WeilianOpenAuthGetqrcodeRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WeilianOpenAuthGetqrcodeRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WjBrandQuery2BBuyDataRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WjBrandQuery2BBuyDataRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WjBrandQuery2CSaleDataRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WjBrandQuery2CSaleDataRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WjBrandQueryStoreDataRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WjBrandQueryStoreDataRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WosSubbiztypelistGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WosSubbiztypelistGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WosWorkinfoGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WosWorkinfoGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WosWorklistGetRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WosWorklistGetRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/WxsqMjgjLinkGetOpenLinkRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/WxsqMjgjLinkGetOpenLinkRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/YairComponentRunRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/YairComponentRunRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/YunXiaoServiceProviderServiceQueryOrderByOrderIdRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/YunXiaoServiceProviderServiceQueryOrderByOrderIdRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/YunXiaoServiceProviderServiceQueryOrderByParamRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/YunXiaoServiceProviderServiceQueryOrderByParamRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ZgbOrderRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ZgbOrderRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ZhuhaiCustomsQueryOrderByOrderIdRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ZhuhaiCustomsQueryOrderByOrderIdRequest.php" />
-      <change beforePath="$PROJECT_DIR$/src/Jos/Request/ZhuhaiCustomsQueryOrderByParamRequest.php" afterPath="$PROJECT_DIR$/src/Jos/Request/ZhuhaiCustomsQueryOrderByParamRequest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -168,16 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AreaCityGetRequest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Jos/Request/AreaCityGetRequest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AreaCountyGetRequest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Jos/Request/AreaCountyGetRequest.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -203,6 +38,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -258,7 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActyEnqueryRegistrationDataCountRequest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ActyEnqueryRegistrationDataCountRequest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Jos/Request/ActyEnqueryRegistrationDataCountRequest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -283,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentEndInfoReturnRequest.php" />
         <option value="$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentDistributeInfoReturnRequest.php" />
         <option value="$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentAssignInfoReturnRequest.php" />
         <option value="$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentAgainAssignInfoReturnRequest.php" />
@@ -334,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/Jos/Request/ActyQueryRegistrationItemListRequest.php" />
         <option value="$PROJECT_DIR$/src/Jos/Request/ActyQueryRegistrationDataCountRequest.php" />
         <option value="$PROJECT_DIR$/src/Jos/Request/ActyEnqueryRegistrationDataCountRequest.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -408,19 +253,6 @@
             <path>
               <item name="jdsdk" type="b2602c69:ProjectViewProjectNode" />
               <item name="jdsdk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Jos" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jdsdk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdsdk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Jos" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Request" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jdsdk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdsdk" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -466,12 +298,12 @@
       <workItem from="1556104896912" duration="27000" />
       <workItem from="1556105147521" duration="2105000" />
       <workItem from="1556113538257" duration="3373000" />
-      <workItem from="1556122324664" duration="2067000" />
+      <workItem from="1556122324664" duration="2180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7572000" />
+    <option name="totallyTimeSpent" value="7685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -508,14 +340,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentEndInfoReturnRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Jos/Request/SendFactoryAbutmentDistributeInfoReturnRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -912,6 +736,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding />
         </state>
       </provider>
