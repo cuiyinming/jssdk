@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
-        "graham-campbell/flysystem": "^3.1"
+        "graham-campbell/flysystem": "^5.2.0"
     },
     "autoload": {
         "psr-4": {
