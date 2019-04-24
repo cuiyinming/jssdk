@@ -1,159 +1,191 @@
 <?php
+
 namespace Jos\Request;
+
 use Jos\RequestCheckUtil;
+
 class SellerPromotionV2CountRequest
 {
-	private $apiParas = array();
-	
-	public function getApiMethodName(){
-	  return "jingdong.seller.promotion.v2.count";
-	}
-	
-	public function getApiParas(){
-		return json_encode($this->apiParas);
-	}
-	
-	public function check(){
-		
-	}
-	
-	public function putOtherTextParam($key, $value){
-		$this->apiParas[$key] = $value;
-		$this->$key = $value;
-	}
-                                                        		                                    	                        	                        	                   			private $ip;
-    	                        
-	public function setIp($ip){
-		$this->ip = $ip;
-         $this->apiParas["ip"] = $ip;
-	}
+    private $apiParas = array();
 
-	public function getIp(){
-	  return $this->ip;
-	}
+    public function getApiMethodName()
+    {
+        return "jingdong.seller.promotion.v2.count";
+    }
 
-                        	                   			private $port;
-    	                        
-	public function setPort($port){
-		$this->port = $port;
-         $this->apiParas["port"] = $port;
-	}
+    public function getApiParas()
+    {
+        return json_encode($this->apiParas);
+    }
 
-	public function getPort(){
-	  return $this->port;
-	}
+    public function check()
+    {
 
-                        	                                                                        		                                    	                   			private $promoId;
-    	                                                            
-	public function setPromoId($promoId){
-		$this->promoId = $promoId;
-         $this->apiParas["promo_id"] = $promoId;
-	}
+    }
 
-	public function getPromoId(){
-	  return $this->promoId;
-	}
+    public function putOtherTextParam($key, $value)
+    {
+        $this->apiParas[$key] = $value;
+        $this->$key = $value;
+    }
 
-                        	                        	                   			private $name;
-    	                        
-	public function setName($name){
-		$this->name = $name;
-         $this->apiParas["name"] = $name;
-	}
+    private $ip;
 
-	public function getName(){
-	  return $this->name;
-	}
+    public function setIp($ip)
+    {
+        $this->ip = $ip;
+        $this->apiParas["ip"] = $ip;
+    }
 
-                        	                   			private $type;
-    	                        
-	public function setType($type){
-		$this->type = $type;
-         $this->apiParas["type"] = $type;
-	}
+    public function getIp()
+    {
+        return $this->ip;
+    }
 
-	public function getType(){
-	  return $this->type;
-	}
+    private $port;
 
-                        	                   			private $favorMode;
-    	                                                            
-	public function setFavorMode($favorMode){
-		$this->favorMode = $favorMode;
-         $this->apiParas["favor_mode"] = $favorMode;
-	}
+    public function setPort($port)
+    {
+        $this->port = $port;
+        $this->apiParas["port"] = $port;
+    }
 
-	public function getFavorMode(){
-	  return $this->favorMode;
-	}
+    public function getPort()
+    {
+        return $this->port;
+    }
 
-                        	                   			private $beginTime;
-    	                                                            
-	public function setBeginTime($beginTime){
-		$this->beginTime = $beginTime;
-         $this->apiParas["begin_time"] = $beginTime;
-	}
+    private $promoId;
 
-	public function getBeginTime(){
-	  return $this->beginTime;
-	}
+    public function setPromoId($promoId)
+    {
+        $this->promoId = $promoId;
+        $this->apiParas["promo_id"] = $promoId;
+    }
 
-                        	                   			private $endTime;
-    	                                                            
-	public function setEndTime($endTime){
-		$this->endTime = $endTime;
-         $this->apiParas["end_time"] = $endTime;
-	}
+    public function getPromoId()
+    {
+        return $this->promoId;
+    }
 
-	public function getEndTime(){
-	  return $this->endTime;
-	}
+    private $name;
 
-                        	                   			private $promoStatus;
-    	                                                            
-	public function setPromoStatus($promoStatus){
-		$this->promoStatus = $promoStatus;
-         $this->apiParas["promo_status"] = $promoStatus;
-	}
+    public function setName($name)
+    {
+        $this->name = $name;
+        $this->apiParas["name"] = $name;
+    }
 
-	public function getPromoStatus(){
-	  return $this->promoStatus;
-	}
+    public function getName()
+    {
+        return $this->name;
+    }
 
-                        	                   			private $wareId;
-    	                                                            
-	public function setWareId($wareId){
-		$this->wareId = $wareId;
-         $this->apiParas["ware_id"] = $wareId;
-	}
+    private $type;
 
-	public function getWareId(){
-	  return $this->wareId;
-	}
+    public function setType($type)
+    {
+        $this->type = $type;
+        $this->apiParas["type"] = $type;
+    }
 
-                        	                   			private $skuId;
-    	                                                            
-	public function setSkuId($skuId){
-		$this->skuId = $skuId;
-         $this->apiParas["sku_id"] = $skuId;
-	}
+    public function getType()
+    {
+        return $this->type;
+    }
 
-	public function getSkuId(){
-	  return $this->skuId;
-	}
+    private $favorMode;
 
-                        	                   			private $srcType;
-    	                                                            
-	public function setSrcType($srcType){
-		$this->srcType = $srcType;
-         $this->apiParas["src_type"] = $srcType;
-	}
+    public function setFavorMode($favorMode)
+    {
+        $this->favorMode = $favorMode;
+        $this->apiParas["favor_mode"] = $favorMode;
+    }
 
-	public function getSrcType(){
-	  return $this->srcType;
-	}
+    public function getFavorMode()
+    {
+        return $this->favorMode;
+    }
 
-                            }
+    private $beginTime;
+
+    public function setBeginTime($beginTime)
+    {
+        $this->beginTime = $beginTime;
+        $this->apiParas["begin_time"] = $beginTime;
+    }
+
+    public function getBeginTime()
+    {
+        return $this->beginTime;
+    }
+
+    private $endTime;
+
+    public function setEndTime($endTime)
+    {
+        $this->endTime = $endTime;
+        $this->apiParas["end_time"] = $endTime;
+    }
+
+    public function getEndTime()
+    {
+        return $this->endTime;
+    }
+
+    private $promoStatus;
+
+    public function setPromoStatus($promoStatus)
+    {
+        $this->promoStatus = $promoStatus;
+        $this->apiParas["promo_status"] = $promoStatus;
+    }
+
+    public function getPromoStatus()
+    {
+        return $this->promoStatus;
+    }
+
+    private $wareId;
+
+    public function setWareId($wareId)
+    {
+        $this->wareId = $wareId;
+        $this->apiParas["ware_id"] = $wareId;
+    }
+
+    public function getWareId()
+    {
+        return $this->wareId;
+    }
+
+    private $skuId;
+
+    public function setSkuId($skuId)
+    {
+        $this->skuId = $skuId;
+        $this->apiParas["sku_id"] = $skuId;
+    }
+
+    public function getSkuId()
+    {
+        return $this->skuId;
+    }
+
+    private $srcType;
+
+    public function setSrcType($srcType)
+    {
+        $this->srcType = $srcType;
+        $this->apiParas["src_type"] = $srcType;
+    }
+
+    public function getSrcType()
+    {
+        return $this->srcType;
+    }
+
+}
 
 
 

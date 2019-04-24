@@ -1,104 +1,126 @@
 <?php
+
 namespace Jos\Request;
+
 use Jos\RequestCheckUtil;
+
 class WarelangSaveRequest
 {
-	private $apiParas = array();
-	
-	public function getApiMethodName(){
-	  return "jingdong.warelang.save";
-	}
-	
-	public function getApiParas(){
-		return json_encode($this->apiParas);
-	}
-	
-	public function check(){
-		
-	}
-	
-	public function putOtherTextParam($key, $value){
-		$this->apiParas[$key] = $value;
-		$this->$key = $value;
-	}
-                                                        		                                    	                        	                   			private $wareId;
-    	                        
-	public function setWareId($wareId){
-		$this->wareId = $wareId;
-         $this->apiParas["wareId"] = $wareId;
-	}
+    private $apiParas = array();
 
-	public function getWareId(){
-	  return $this->wareId;
-	}
+    public function getApiMethodName()
+    {
+        return "jingdong.warelang.save";
+    }
 
-                        	                   			private $langId;
-    	                        
-	public function setLangId($langId){
-		$this->langId = $langId;
-         $this->apiParas["langId"] = $langId;
-	}
+    public function getApiParas()
+    {
+        return json_encode($this->apiParas);
+    }
 
-	public function getLangId(){
-	  return $this->langId;
-	}
+    public function check()
+    {
 
-                        	                   			private $title;
-    	                        
-	public function setTitle($title){
-		$this->title = $title;
-         $this->apiParas["title"] = $title;
-	}
+    }
 
-	public function getTitle(){
-	  return $this->title;
-	}
+    public function putOtherTextParam($key, $value)
+    {
+        $this->apiParas[$key] = $value;
+        $this->$key = $value;
+    }
 
-                        	                   			private $seoKeywords;
-    	                        
-	public function setSeoKeywords($seoKeywords){
-		$this->seoKeywords = $seoKeywords;
-         $this->apiParas["seoKeywords"] = $seoKeywords;
-	}
+    private $wareId;
 
-	public function getSeoKeywords(){
-	  return $this->seoKeywords;
-	}
+    public function setWareId($wareId)
+    {
+        $this->wareId = $wareId;
+        $this->apiParas["wareId"] = $wareId;
+    }
 
-                        	                   			private $extPackInfo;
-    	                        
-	public function setExtPackInfo($extPackInfo){
-		$this->extPackInfo = $extPackInfo;
-         $this->apiParas["extPackInfo"] = $extPackInfo;
-	}
+    public function getWareId()
+    {
+        return $this->wareId;
+    }
 
-	public function getExtPackInfo(){
-	  return $this->extPackInfo;
-	}
+    private $langId;
 
-                        	                   			private $description;
-    	                        
-	public function setDescription($description){
-		$this->description = $description;
-         $this->apiParas["description"] = $description;
-	}
+    public function setLangId($langId)
+    {
+        $this->langId = $langId;
+        $this->apiParas["langId"] = $langId;
+    }
 
-	public function getDescription(){
-	  return $this->description;
-	}
+    public function getLangId()
+    {
+        return $this->langId;
+    }
 
-                        	                   			private $appDescription;
-    	                        
-	public function setAppDescription($appDescription){
-		$this->appDescription = $appDescription;
-         $this->apiParas["appDescription"] = $appDescription;
-	}
+    private $title;
 
-	public function getAppDescription(){
-	  return $this->appDescription;
-	}
+    public function setTitle($title)
+    {
+        $this->title = $title;
+        $this->apiParas["title"] = $title;
+    }
 
-                            }
+    public function getTitle()
+    {
+        return $this->title;
+    }
+
+    private $seoKeywords;
+
+    public function setSeoKeywords($seoKeywords)
+    {
+        $this->seoKeywords = $seoKeywords;
+        $this->apiParas["seoKeywords"] = $seoKeywords;
+    }
+
+    public function getSeoKeywords()
+    {
+        return $this->seoKeywords;
+    }
+
+    private $extPackInfo;
+
+    public function setExtPackInfo($extPackInfo)
+    {
+        $this->extPackInfo = $extPackInfo;
+        $this->apiParas["extPackInfo"] = $extPackInfo;
+    }
+
+    public function getExtPackInfo()
+    {
+        return $this->extPackInfo;
+    }
+
+    private $description;
+
+    public function setDescription($description)
+    {
+        $this->description = $description;
+        $this->apiParas["description"] = $description;
+    }
+
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    private $appDescription;
+
+    public function setAppDescription($appDescription)
+    {
+        $this->appDescription = $appDescription;
+        $this->apiParas["appDescription"] = $appDescription;
+    }
+
+    public function getAppDescription()
+    {
+        return $this->appDescription;
+    }
+
+}
 
 
 

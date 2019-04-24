@@ -1,10 +1,9 @@
 <?php
-namespace Jos\Request;
-use Jos\RequestCheckUtil;
 
 namespace Jos\Request;
 
 use Jos\RequestCheckUtil;
+
 
 class SkuReadFindSkuIdByItemClubRequest
 {
@@ -28,14 +27,14 @@ class SkuReadFindSkuIdByItemClubRequest
     public function putOtherTextParam($key, $value)
     {
         $this->apiParas[$key] = $value;
-        $this->$key           = $value;
+        $this->$key = $value;
     }
 
     private $itemId;
 
     public function setItemId($itemId)
     {
-        $this->itemId             = $itemId;
+        $this->itemId = $itemId;
         $this->apiParas["itemId"] = $itemId;
     }
 
@@ -48,7 +47,7 @@ class SkuReadFindSkuIdByItemClubRequest
 
     public function setClubId($clubId)
     {
-        $this->clubId             = $clubId;
+        $this->clubId = $clubId;
         $this->apiParas["clubId"] = $clubId;
     }
 

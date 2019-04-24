@@ -1,263 +1,320 @@
 <?php
+
 namespace Jos\Request;
+
 use Jos\RequestCheckUtil;
+
 class SellerPromotionV2UnitLimitCreateRequest
 {
-	private $apiParas = array();
-	
-	public function getApiMethodName(){
-	  return "jingdong.seller.promotion.v2.unit.limit.create";
-	}
-	
-	public function getApiParas(){
-		return json_encode($this->apiParas);
-	}
-	
-	public function check(){
-		
-	}
-	
-	public function putOtherTextParam($key, $value){
-		$this->apiParas[$key] = $value;
-		$this->$key = $value;
-	}
-                                                        		                                    	                        	                        	                   			private $ip;
-    	                        
-	public function setIp($ip){
-		$this->ip = $ip;
-         $this->apiParas["ip"] = $ip;
-	}
+    private $apiParas = array();
 
-	public function getIp(){
-	  return $this->ip;
-	}
+    public function getApiMethodName()
+    {
+        return "jingdong.seller.promotion.v2.unit.limit.create";
+    }
 
-                        	                   			private $port;
-    	                        
-	public function setPort($port){
-		$this->port = $port;
-         $this->apiParas["port"] = $port;
-	}
+    public function getApiParas()
+    {
+        return json_encode($this->apiParas);
+    }
 
-	public function getPort(){
-	  return $this->port;
-	}
+    public function check()
+    {
 
-                        	                   			private $requestId;
-    	                                                            
-	public function setRequestId($requestId){
-		$this->requestId = $requestId;
-         $this->apiParas["request_id"] = $requestId;
-	}
+    }
 
-	public function getRequestId(){
-	  return $this->requestId;
-	}
+    public function putOtherTextParam($key, $value)
+    {
+        $this->apiParas[$key] = $value;
+        $this->$key = $value;
+    }
 
-                        	                                                                        		                                    	                        	                   			private $promoName;
-    	                                                            
-	public function setPromoName($promoName){
-		$this->promoName = $promoName;
-         $this->apiParas["promo_name"] = $promoName;
-	}
+    private $ip;
 
-	public function getPromoName(){
-	  return $this->promoName;
-	}
+    public function setIp($ip)
+    {
+        $this->ip = $ip;
+        $this->apiParas["ip"] = $ip;
+    }
 
-                        	                   			private $beginTime;
-    	                                                            
-	public function setBeginTime($beginTime){
-		$this->beginTime = $beginTime;
-         $this->apiParas["begin_time"] = $beginTime;
-	}
+    public function getIp()
+    {
+        return $this->ip;
+    }
 
-	public function getBeginTime(){
-	  return $this->beginTime;
-	}
+    private $port;
 
-                        	                   			private $endTime;
-    	                                                            
-	public function setEndTime($endTime){
-		$this->endTime = $endTime;
-         $this->apiParas["end_time"] = $endTime;
-	}
+    public function setPort($port)
+    {
+        $this->port = $port;
+        $this->apiParas["port"] = $port;
+    }
 
-	public function getEndTime(){
-	  return $this->endTime;
-	}
+    public function getPort()
+    {
+        return $this->port;
+    }
 
-                        	                        	                   			private $slogan;
-    	                        
-	public function setSlogan($slogan){
-		$this->slogan = $slogan;
-         $this->apiParas["slogan"] = $slogan;
-	}
+    private $requestId;
 
-	public function getSlogan(){
-	  return $this->slogan;
-	}
+    public function setRequestId($requestId)
+    {
+        $this->requestId = $requestId;
+        $this->apiParas["request_id"] = $requestId;
+    }
 
-                        	                   			private $comment;
-    	                        
-	public function setComment($comment){
-		$this->comment = $comment;
-         $this->apiParas["comment"] = $comment;
-	}
+    public function getRequestId()
+    {
+        return $this->requestId;
+    }
 
-	public function getComment(){
-	  return $this->comment;
-	}
+    private $promoName;
 
-                        	                   			private $link;
-    	                        
-	public function setLink($link){
-		$this->link = $link;
-         $this->apiParas["link"] = $link;
-	}
+    public function setPromoName($promoName)
+    {
+        $this->promoName = $promoName;
+        $this->apiParas["promo_name"] = $promoName;
+    }
 
-	public function getLink(){
-	  return $this->link;
-	}
+    public function getPromoName()
+    {
+        return $this->promoName;
+    }
 
-                        	                        	                   			private $allowOthersOperate;
-    	                                                                        
-	public function setAllowOthersOperate($allowOthersOperate){
-		$this->allowOthersOperate = $allowOthersOperate;
-         $this->apiParas["allow_others_operate"] = $allowOthersOperate;
-	}
+    private $beginTime;
 
-	public function getAllowOthersOperate(){
-	  return $this->allowOthersOperate;
-	}
+    public function setBeginTime($beginTime)
+    {
+        $this->beginTime = $beginTime;
+        $this->apiParas["begin_time"] = $beginTime;
+    }
 
-                        	                   			private $allowOthersCheck;
-    	                                                                        
-	public function setAllowOthersCheck($allowOthersCheck){
-		$this->allowOthersCheck = $allowOthersCheck;
-         $this->apiParas["allow_others_check"] = $allowOthersCheck;
-	}
+    public function getBeginTime()
+    {
+        return $this->beginTime;
+    }
 
-	public function getAllowOthersCheck(){
-	  return $this->allowOthersCheck;
-	}
+    private $endTime;
 
-                        	                   			private $allowOtherUserOperate;
-    	                                                                                    
-	public function setAllowOtherUserOperate($allowOtherUserOperate){
-		$this->allowOtherUserOperate = $allowOtherUserOperate;
-         $this->apiParas["allow_other_user_operate"] = $allowOtherUserOperate;
-	}
+    public function setEndTime($endTime)
+    {
+        $this->endTime = $endTime;
+        $this->apiParas["end_time"] = $endTime;
+    }
 
-	public function getAllowOtherUserOperate(){
-	  return $this->allowOtherUserOperate;
-	}
+    public function getEndTime()
+    {
+        return $this->endTime;
+    }
 
-                        	                   			private $allowOtherUserCheck;
-    	                                                                                    
-	public function setAllowOtherUserCheck($allowOtherUserCheck){
-		$this->allowOtherUserCheck = $allowOtherUserCheck;
-         $this->apiParas["allow_other_user_check"] = $allowOtherUserCheck;
-	}
+    private $slogan;
 
-	public function getAllowOtherUserCheck(){
-	  return $this->allowOtherUserCheck;
-	}
+    public function setSlogan($slogan)
+    {
+        $this->slogan = $slogan;
+        $this->apiParas["slogan"] = $slogan;
+    }
 
-                        	                   			private $needManualCheck;
-    	                                                                        
-	public function setNeedManualCheck($needManualCheck){
-		$this->needManualCheck = $needManualCheck;
-         $this->apiParas["need_manual_check"] = $needManualCheck;
-	}
+    public function getSlogan()
+    {
+        return $this->slogan;
+    }
 
-	public function getNeedManualCheck(){
-	  return $this->needManualCheck;
-	}
+    private $comment;
 
-                        	                   			private $freqBound;
-    	                                                            
-	public function setFreqBound($freqBound){
-		$this->freqBound = $freqBound;
-         $this->apiParas["freq_bound"] = $freqBound;
-	}
+    public function setComment($comment)
+    {
+        $this->comment = $comment;
+        $this->apiParas["comment"] = $comment;
+    }
 
-	public function getFreqBound(){
-	  return $this->freqBound;
-	}
+    public function getComment()
+    {
+        return $this->comment;
+    }
 
-                        	                   			private $perMaxNum;
-    	                                                                        
-	public function setPerMaxNum($perMaxNum){
-		$this->perMaxNum = $perMaxNum;
-         $this->apiParas["per_max_num"] = $perMaxNum;
-	}
+    private $link;
 
-	public function getPerMaxNum(){
-	  return $this->perMaxNum;
-	}
+    public function setLink($link)
+    {
+        $this->link = $link;
+        $this->apiParas["link"] = $link;
+    }
 
-                        	                   			private $perMinNum;
-    	                                                                        
-	public function setPerMinNum($perMinNum){
-		$this->perMinNum = $perMinNum;
-         $this->apiParas["per_min_num"] = $perMinNum;
-	}
+    public function getLink()
+    {
+        return $this->link;
+    }
 
-	public function getPerMinNum(){
-	  return $this->perMinNum;
-	}
+    private $allowOthersOperate;
 
-                        	                   			private $promoAreaType;
-    	                                                                        
-	public function setPromoAreaType($promoAreaType){
-		$this->promoAreaType = $promoAreaType;
-         $this->apiParas["promo_area_type"] = $promoAreaType;
-	}
+    public function setAllowOthersOperate($allowOthersOperate)
+    {
+        $this->allowOthersOperate = $allowOthersOperate;
+        $this->apiParas["allow_others_operate"] = $allowOthersOperate;
+    }
 
-	public function getPromoAreaType(){
-	  return $this->promoAreaType;
-	}
+    public function getAllowOthersOperate()
+    {
+        return $this->allowOthersOperate;
+    }
 
-                        	                   			private $promoAreas;
-    	                                                            
-	public function setPromoAreas($promoAreas){
-		$this->promoAreas = $promoAreas;
-         $this->apiParas["promo_areas"] = $promoAreas;
-	}
+    private $allowOthersCheck;
 
-	public function getPromoAreas(){
-	  return $this->promoAreas;
-	}
+    public function setAllowOthersCheck($allowOthersCheck)
+    {
+        $this->allowOthersCheck = $allowOthersCheck;
+        $this->apiParas["allow_others_check"] = $allowOthersCheck;
+    }
 
-                                                                             	                        	                                                                                                                                                                                                                                                                                                                                                                                                       private $skuId;
-                              public function setSkuId($skuId ){
-                 $this->skuId=$skuId;
-                 $this->apiParas["sku_id"] = $skuId;
-              }
+    public function getAllowOthersCheck()
+    {
+        return $this->allowOthersCheck;
+    }
 
-              public function getSkuId(){
-              	return $this->skuId;
-              }
-                                                                                                                                                                                                                                                                                                                                                                                                                                      private $promoPrice;
-                              public function setPromoPrice($promoPrice ){
-                 $this->promoPrice=$promoPrice;
-                 $this->apiParas["promo_price"] = $promoPrice;
-              }
+    private $allowOtherUserOperate;
 
-              public function getPromoPrice(){
-              	return $this->promoPrice;
-              }
-                                                                                                                                                                                                                                                                                                                                                                                                                                      private $limitNum;
-                              public function setLimitNum($limitNum ){
-                 $this->limitNum=$limitNum;
-                 $this->apiParas["limit_num"] = $limitNum;
-              }
+    public function setAllowOtherUserOperate($allowOtherUserOperate)
+    {
+        $this->allowOtherUserOperate = $allowOtherUserOperate;
+        $this->apiParas["allow_other_user_operate"] = $allowOtherUserOperate;
+    }
 
-              public function getLimitNum(){
-              	return $this->limitNum;
-              }
-                                                                                                                }
+    public function getAllowOtherUserOperate()
+    {
+        return $this->allowOtherUserOperate;
+    }
+
+    private $allowOtherUserCheck;
+
+    public function setAllowOtherUserCheck($allowOtherUserCheck)
+    {
+        $this->allowOtherUserCheck = $allowOtherUserCheck;
+        $this->apiParas["allow_other_user_check"] = $allowOtherUserCheck;
+    }
+
+    public function getAllowOtherUserCheck()
+    {
+        return $this->allowOtherUserCheck;
+    }
+
+    private $needManualCheck;
+
+    public function setNeedManualCheck($needManualCheck)
+    {
+        $this->needManualCheck = $needManualCheck;
+        $this->apiParas["need_manual_check"] = $needManualCheck;
+    }
+
+    public function getNeedManualCheck()
+    {
+        return $this->needManualCheck;
+    }
+
+    private $freqBound;
+
+    public function setFreqBound($freqBound)
+    {
+        $this->freqBound = $freqBound;
+        $this->apiParas["freq_bound"] = $freqBound;
+    }
+
+    public function getFreqBound()
+    {
+        return $this->freqBound;
+    }
+
+    private $perMaxNum;
+
+    public function setPerMaxNum($perMaxNum)
+    {
+        $this->perMaxNum = $perMaxNum;
+        $this->apiParas["per_max_num"] = $perMaxNum;
+    }
+
+    public function getPerMaxNum()
+    {
+        return $this->perMaxNum;
+    }
+
+    private $perMinNum;
+
+    public function setPerMinNum($perMinNum)
+    {
+        $this->perMinNum = $perMinNum;
+        $this->apiParas["per_min_num"] = $perMinNum;
+    }
+
+    public function getPerMinNum()
+    {
+        return $this->perMinNum;
+    }
+
+    private $promoAreaType;
+
+    public function setPromoAreaType($promoAreaType)
+    {
+        $this->promoAreaType = $promoAreaType;
+        $this->apiParas["promo_area_type"] = $promoAreaType;
+    }
+
+    public function getPromoAreaType()
+    {
+        return $this->promoAreaType;
+    }
+
+    private $promoAreas;
+
+    public function setPromoAreas($promoAreas)
+    {
+        $this->promoAreas = $promoAreas;
+        $this->apiParas["promo_areas"] = $promoAreas;
+    }
+
+    public function getPromoAreas()
+    {
+        return $this->promoAreas;
+    }
+
+    private $skuId;
+
+    public function setSkuId($skuId)
+    {
+        $this->skuId = $skuId;
+        $this->apiParas["sku_id"] = $skuId;
+    }
+
+    public function getSkuId()
+    {
+        return $this->skuId;
+    }
+
+    private $promoPrice;
+
+    public function setPromoPrice($promoPrice)
+    {
+        $this->promoPrice = $promoPrice;
+        $this->apiParas["promo_price"] = $promoPrice;
+    }
+
+    public function getPromoPrice()
+    {
+        return $this->promoPrice;
+    }
+
+    private $limitNum;
+
+    public function setLimitNum($limitNum)
+    {
+        $this->limitNum = $limitNum;
+        $this->apiParas["limit_num"] = $limitNum;
+    }
+
+    public function getLimitNum()
+    {
+        return $this->limitNum;
+    }
+}
 
 
 

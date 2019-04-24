@@ -1,159 +1,191 @@
 <?php
+
 namespace Jos\Request;
+
 use Jos\RequestCheckUtil;
+
 class VirtualCrabCouponGetcouponRequest
 {
-	private $apiParas = array();
-	
-	public function getApiMethodName(){
-	  return "jingdong.virtual.crabCoupon.getcoupon";
-	}
-	
-	public function getApiParas(){
-		return json_encode($this->apiParas);
-	}
-	
-	public function check(){
-		
-	}
-	
-	public function putOtherTextParam($key, $value){
-		$this->apiParas[$key] = $value;
-		$this->$key = $value;
-	}
-                                                        		                                    	                   			private $merchantId;
-    	                        
-	public function setMerchantId($merchantId){
-		$this->merchantId = $merchantId;
-         $this->apiParas["merchantId"] = $merchantId;
-	}
+    private $apiParas = array();
 
-	public function getMerchantId(){
-	  return $this->merchantId;
-	}
+    public function getApiMethodName()
+    {
+        return "jingdong.virtual.crabCoupon.getcoupon";
+    }
 
-                        	                   			private $merchantName;
-    	                        
-	public function setMerchantName($merchantName){
-		$this->merchantName = $merchantName;
-         $this->apiParas["merchantName"] = $merchantName;
-	}
+    public function getApiParas()
+    {
+        return json_encode($this->apiParas);
+    }
 
-	public function getMerchantName(){
-	  return $this->merchantName;
-	}
+    public function check()
+    {
 
-                        	                   			private $orderId;
-    	                        
-	public function setOrderId($orderId){
-		$this->orderId = $orderId;
-         $this->apiParas["orderId"] = $orderId;
-	}
+    }
 
-	public function getOrderId(){
-	  return $this->orderId;
-	}
+    public function putOtherTextParam($key, $value)
+    {
+        $this->apiParas[$key] = $value;
+        $this->$key = $value;
+    }
 
-                        	                   			private $channelType;
-    	                        
-	public function setChannelType($channelType){
-		$this->channelType = $channelType;
-         $this->apiParas["channelType"] = $channelType;
-	}
+    private $merchantId;
 
-	public function getChannelType(){
-	  return $this->channelType;
-	}
+    public function setMerchantId($merchantId)
+    {
+        $this->merchantId = $merchantId;
+        $this->apiParas["merchantId"] = $merchantId;
+    }
 
-                        	                   			private $couponType;
-    	                        
-	public function setCouponType($couponType){
-		$this->couponType = $couponType;
-         $this->apiParas["couponType"] = $couponType;
-	}
+    public function getMerchantId()
+    {
+        return $this->merchantId;
+    }
 
-	public function getCouponType(){
-	  return $this->couponType;
-	}
+    private $merchantName;
 
-                        	                   			private $couponNumber;
-    	                        
-	public function setCouponNumber($couponNumber){
-		$this->couponNumber = $couponNumber;
-         $this->apiParas["couponNumber"] = $couponNumber;
-	}
+    public function setMerchantName($merchantName)
+    {
+        $this->merchantName = $merchantName;
+        $this->apiParas["merchantName"] = $merchantName;
+    }
 
-	public function getCouponNumber(){
-	  return $this->couponNumber;
-	}
+    public function getMerchantName()
+    {
+        return $this->merchantName;
+    }
 
-                        	                   			private $trackingName;
-    	                        
-	public function setTrackingName($trackingName){
-		$this->trackingName = $trackingName;
-         $this->apiParas["trackingName"] = $trackingName;
-	}
+    private $orderId;
 
-	public function getTrackingName(){
-	  return $this->trackingName;
-	}
+    public function setOrderId($orderId)
+    {
+        $this->orderId = $orderId;
+        $this->apiParas["orderId"] = $orderId;
+    }
 
-                        	                   			private $trackingNumber;
-    	                        
-	public function setTrackingNumber($trackingNumber){
-		$this->trackingNumber = $trackingNumber;
-         $this->apiParas["trackingNumber"] = $trackingNumber;
-	}
+    public function getOrderId()
+    {
+        return $this->orderId;
+    }
 
-	public function getTrackingNumber(){
-	  return $this->trackingNumber;
-	}
+    private $channelType;
 
-                        	                   			private $sendTime;
-    	                        
-	public function setSendTime($sendTime){
-		$this->sendTime = $sendTime;
-         $this->apiParas["sendTime"] = $sendTime;
-	}
+    public function setChannelType($channelType)
+    {
+        $this->channelType = $channelType;
+        $this->apiParas["channelType"] = $channelType;
+    }
 
-	public function getSendTime(){
-	  return $this->sendTime;
-	}
+    public function getChannelType()
+    {
+        return $this->channelType;
+    }
 
-                        	                   			private $receiverName;
-    	                        
-	public function setReceiverName($receiverName){
-		$this->receiverName = $receiverName;
-         $this->apiParas["receiverName"] = $receiverName;
-	}
+    private $couponType;
 
-	public function getReceiverName(){
-	  return $this->receiverName;
-	}
+    public function setCouponType($couponType)
+    {
+        $this->couponType = $couponType;
+        $this->apiParas["couponType"] = $couponType;
+    }
 
-                        	                   			private $receiverMobile;
-    	                        
-	public function setReceiverMobile($receiverMobile){
-		$this->receiverMobile = $receiverMobile;
-         $this->apiParas["receiverMobile"] = $receiverMobile;
-	}
+    public function getCouponType()
+    {
+        return $this->couponType;
+    }
 
-	public function getReceiverMobile(){
-	  return $this->receiverMobile;
-	}
+    private $couponNumber;
 
-                        	                   			private $sendSerialNumber;
-    	                        
-	public function setSendSerialNumber($sendSerialNumber){
-		$this->sendSerialNumber = $sendSerialNumber;
-         $this->apiParas["sendSerialNumber"] = $sendSerialNumber;
-	}
+    public function setCouponNumber($couponNumber)
+    {
+        $this->couponNumber = $couponNumber;
+        $this->apiParas["couponNumber"] = $couponNumber;
+    }
 
-	public function getSendSerialNumber(){
-	  return $this->sendSerialNumber;
-	}
+    public function getCouponNumber()
+    {
+        return $this->couponNumber;
+    }
 
-                                                    	                        	                        	}
+    private $trackingName;
+
+    public function setTrackingName($trackingName)
+    {
+        $this->trackingName = $trackingName;
+        $this->apiParas["trackingName"] = $trackingName;
+    }
+
+    public function getTrackingName()
+    {
+        return $this->trackingName;
+    }
+
+    private $trackingNumber;
+
+    public function setTrackingNumber($trackingNumber)
+    {
+        $this->trackingNumber = $trackingNumber;
+        $this->apiParas["trackingNumber"] = $trackingNumber;
+    }
+
+    public function getTrackingNumber()
+    {
+        return $this->trackingNumber;
+    }
+
+    private $sendTime;
+
+    public function setSendTime($sendTime)
+    {
+        $this->sendTime = $sendTime;
+        $this->apiParas["sendTime"] = $sendTime;
+    }
+
+    public function getSendTime()
+    {
+        return $this->sendTime;
+    }
+
+    private $receiverName;
+
+    public function setReceiverName($receiverName)
+    {
+        $this->receiverName = $receiverName;
+        $this->apiParas["receiverName"] = $receiverName;
+    }
+
+    public function getReceiverName()
+    {
+        return $this->receiverName;
+    }
+
+    private $receiverMobile;
+
+    public function setReceiverMobile($receiverMobile)
+    {
+        $this->receiverMobile = $receiverMobile;
+        $this->apiParas["receiverMobile"] = $receiverMobile;
+    }
+
+    public function getReceiverMobile()
+    {
+        return $this->receiverMobile;
+    }
+
+    private $sendSerialNumber;
+
+    public function setSendSerialNumber($sendSerialNumber)
+    {
+        $this->sendSerialNumber = $sendSerialNumber;
+        $this->apiParas["sendSerialNumber"] = $sendSerialNumber;
+    }
+
+    public function getSendSerialNumber()
+    {
+        return $this->sendSerialNumber;
+    }
+
+}
 
 
 

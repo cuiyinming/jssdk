@@ -1,113 +1,137 @@
 <?php
+
 namespace Jos\Request;
+
 use Jos\RequestCheckUtil;
+
 class SellerPromotionListRequest
 {
-	private $apiParas = array();
-	
-	public function getApiMethodName(){
-	  return "jingdong.seller.promotion.list";
-	}
-	
-	public function getApiParas(){
-		return json_encode($this->apiParas);
-	}
-	
-	public function check(){
-		
-	}
-	
-	public function putOtherTextParam($key, $value){
-		$this->apiParas[$key] = $value;
-		$this->$key = $value;
-	}
-                                                        		                                    	                        	                   			private $type;
-    	                        
-	public function setType($type){
-		$this->type = $type;
-         $this->apiParas["type"] = $type;
-	}
+    private $apiParas = array();
 
-	public function getType(){
-	  return $this->type;
-	}
+    public function getApiMethodName()
+    {
+        return "jingdong.seller.promotion.list";
+    }
 
-                        	                   			private $status;
-    	                        
-	public function setStatus($status){
-		$this->status = $status;
-         $this->apiParas["status"] = $status;
-	}
+    public function getApiParas()
+    {
+        return json_encode($this->apiParas);
+    }
 
-	public function getStatus(){
-	  return $this->status;
-	}
+    public function check()
+    {
 
-                        	                   			private $beginTime;
-    	                                                            
-	public function setBeginTime($beginTime){
-		$this->beginTime = $beginTime;
-         $this->apiParas["begin_time"] = $beginTime;
-	}
+    }
 
-	public function getBeginTime(){
-	  return $this->beginTime;
-	}
+    public function putOtherTextParam($key, $value)
+    {
+        $this->apiParas[$key] = $value;
+        $this->$key = $value;
+    }
 
-                        	                   			private $endTime;
-    	                                                            
-	public function setEndTime($endTime){
-		$this->endTime = $endTime;
-         $this->apiParas["end_time"] = $endTime;
-	}
+    private $type;
 
-	public function getEndTime(){
-	  return $this->endTime;
-	}
+    public function setType($type)
+    {
+        $this->type = $type;
+        $this->apiParas["type"] = $type;
+    }
 
-                        	                   			private $skuId;
-    	                                                            
-	public function setSkuId($skuId){
-		$this->skuId = $skuId;
-         $this->apiParas["sku_id"] = $skuId;
-	}
+    public function getType()
+    {
+        return $this->type;
+    }
 
-	public function getSkuId(){
-	  return $this->skuId;
-	}
+    private $status;
 
-                        	                   			private $favorMode;
-    	                                                            
-	public function setFavorMode($favorMode){
-		$this->favorMode = $favorMode;
-         $this->apiParas["favor_mode"] = $favorMode;
-	}
+    public function setStatus($status)
+    {
+        $this->status = $status;
+        $this->apiParas["status"] = $status;
+    }
 
-	public function getFavorMode(){
-	  return $this->favorMode;
-	}
+    public function getStatus()
+    {
+        return $this->status;
+    }
 
-                                                    	                   			private $page;
-    	                        
-	public function setPage($page){
-		$this->page = $page;
-         $this->apiParas["page"] = $page;
-	}
+    private $beginTime;
 
-	public function getPage(){
-	  return $this->page;
-	}
+    public function setBeginTime($beginTime)
+    {
+        $this->beginTime = $beginTime;
+        $this->apiParas["begin_time"] = $beginTime;
+    }
 
-                        	                   			private $size;
-    	                        
-	public function setSize($size){
-		$this->size = $size;
-         $this->apiParas["size"] = $size;
-	}
+    public function getBeginTime()
+    {
+        return $this->beginTime;
+    }
 
-	public function getSize(){
-	  return $this->size;
-	}
+    private $endTime;
+
+    public function setEndTime($endTime)
+    {
+        $this->endTime = $endTime;
+        $this->apiParas["end_time"] = $endTime;
+    }
+
+    public function getEndTime()
+    {
+        return $this->endTime;
+    }
+
+    private $skuId;
+
+    public function setSkuId($skuId)
+    {
+        $this->skuId = $skuId;
+        $this->apiParas["sku_id"] = $skuId;
+    }
+
+    public function getSkuId()
+    {
+        return $this->skuId;
+    }
+
+    private $favorMode;
+
+    public function setFavorMode($favorMode)
+    {
+        $this->favorMode = $favorMode;
+        $this->apiParas["favor_mode"] = $favorMode;
+    }
+
+    public function getFavorMode()
+    {
+        return $this->favorMode;
+    }
+
+    private $page;
+
+    public function setPage($page)
+    {
+        $this->page = $page;
+        $this->apiParas["page"] = $page;
+    }
+
+    public function getPage()
+    {
+        return $this->page;
+    }
+
+    private $size;
+
+    public function setSize($size)
+    {
+        $this->size = $size;
+        $this->apiParas["size"] = $size;
+    }
+
+    public function getSize()
+    {
+        return $this->size;
+    }
 
 }
 

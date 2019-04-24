@@ -1,10 +1,9 @@
 <?php
-namespace Jos\Request;
-use Jos\RequestCheckUtil;
 
 namespace Jos\Request;
 
 use Jos\RequestCheckUtil;
+
 
 class VenderShopcategoryFindShopCategoriesByVenderIdRequest
 {
@@ -28,7 +27,7 @@ class VenderShopcategoryFindShopCategoriesByVenderIdRequest
     public function putOtherTextParam($key, $value)
     {
         $this->apiParas[$key] = $value;
-        $this->$key           = $value;
+        $this->$key = $value;
     }
 }
 

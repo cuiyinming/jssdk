@@ -1,93 +1,113 @@
 <?php
+
 namespace Jos\Request;
+
 use Jos\RequestCheckUtil;
+
 class SendFactoryAbutmentAssignInfoReturnRequest
 {
-	private $apiParas = array();
-	
-	public function getApiMethodName(){
-	  return "jingdong.sendFactoryAbutmentAssignInfoReturn";
-	}
-	
-	public function getApiParas(){
-		return json_encode($this->apiParas);
-	}
-	
-	public function check(){
-		
-	}
-	
-	public function putOtherTextParam($key, $value){
-		$this->apiParas[$key] = $value;
-		$this->$key = $value;
-	}
-                                    	                   			private $authorizedSequence;
-    	                        
-	public function setAuthorizedSequence($authorizedSequence){
-		$this->authorizedSequence = $authorizedSequence;
-         $this->apiParas["authorizedSequence"] = $authorizedSequence;
-	}
+    private $apiParas = array();
 
-	public function getAuthorizedSequence(){
-	  return $this->authorizedSequence;
-	}
+    public function getApiMethodName()
+    {
+        return "jingdong.sendFactoryAbutmentAssignInfoReturn";
+    }
 
-                                            		                                    	                   			private $orderno;
-    	                        
-	public function setOrderno($orderno){
-		$this->orderno = $orderno;
-         $this->apiParas["orderno"] = $orderno;
-	}
+    public function getApiParas()
+    {
+        return json_encode($this->apiParas);
+    }
 
-	public function getOrderno(){
-	  return $this->orderno;
-	}
+    public function check()
+    {
 
-                        	                   			private $assignTime;
-    	                        
-	public function setAssignTime($assignTime){
-		$this->assignTime = $assignTime;
-         $this->apiParas["assignTime"] = $assignTime;
-	}
+    }
 
-	public function getAssignTime(){
-	  return $this->assignTime;
-	}
+    public function putOtherTextParam($key, $value)
+    {
+        $this->apiParas[$key] = $value;
+        $this->$key = $value;
+    }
 
-                        	                   			private $atHomeTime;
-    	                        
-	public function setAtHomeTime($atHomeTime){
-		$this->atHomeTime = $atHomeTime;
-         $this->apiParas["atHomeTime"] = $atHomeTime;
-	}
+    private $authorizedSequence;
 
-	public function getAtHomeTime(){
-	  return $this->atHomeTime;
-	}
+    public function setAuthorizedSequence($authorizedSequence)
+    {
+        $this->authorizedSequence = $authorizedSequence;
+        $this->apiParas["authorizedSequence"] = $authorizedSequence;
+    }
 
-                        	                   			private $assignerName;
-    	                        
-	public function setAssignerName($assignerName){
-		$this->assignerName = $assignerName;
-         $this->apiParas["assignerName"] = $assignerName;
-	}
+    public function getAuthorizedSequence()
+    {
+        return $this->authorizedSequence;
+    }
 
-	public function getAssignerName(){
-	  return $this->assignerName;
-	}
+    private $orderno;
 
-                        	                   			private $assignerTel;
-    	                        
-	public function setAssignerTel($assignerTel){
-		$this->assignerTel = $assignerTel;
-         $this->apiParas["assignerTel"] = $assignerTel;
-	}
+    public function setOrderno($orderno)
+    {
+        $this->orderno = $orderno;
+        $this->apiParas["orderno"] = $orderno;
+    }
 
-	public function getAssignerTel(){
-	  return $this->assignerTel;
-	}
+    public function getOrderno()
+    {
+        return $this->orderno;
+    }
 
-                            }
+    private $assignTime;
+
+    public function setAssignTime($assignTime)
+    {
+        $this->assignTime = $assignTime;
+        $this->apiParas["assignTime"] = $assignTime;
+    }
+
+    public function getAssignTime()
+    {
+        return $this->assignTime;
+    }
+
+    private $atHomeTime;
+
+    public function setAtHomeTime($atHomeTime)
+    {
+        $this->atHomeTime = $atHomeTime;
+        $this->apiParas["atHomeTime"] = $atHomeTime;
+    }
+
+    public function getAtHomeTime()
+    {
+        return $this->atHomeTime;
+    }
+
+    private $assignerName;
+
+    public function setAssignerName($assignerName)
+    {
+        $this->assignerName = $assignerName;
+        $this->apiParas["assignerName"] = $assignerName;
+    }
+
+    public function getAssignerName()
+    {
+        return $this->assignerName;
+    }
+
+    private $assignerTel;
+
+    public function setAssignerTel($assignerTel)
+    {
+        $this->assignerTel = $assignerTel;
+        $this->apiParas["assignerTel"] = $assignerTel;
+    }
+
+    public function getAssignerTel()
+    {
+        return $this->assignerTel;
+    }
+
+}
 
 
 

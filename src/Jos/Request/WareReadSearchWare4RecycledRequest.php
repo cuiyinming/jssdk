@@ -1,345 +1,423 @@
 <?php
+
 namespace Jos\Request;
+
 use Jos\RequestCheckUtil;
+
 class WareReadSearchWare4RecycledRequest
 {
-	private $apiParas = array();
-	
-	public function getApiMethodName(){
-	  return "jingdong.ware.read.searchWare4Recycled";
-	}
-	
-	public function getApiParas(){
-		return json_encode($this->apiParas);
-	}
-	
-	public function check(){
-		
-	}
-	
-	public function putOtherTextParam($key, $value){
-		$this->apiParas[$key] = $value;
-		$this->$key = $value;
-	}
-                                                        		                                    	                        	                        	                                                                        		                                    	                        	                   			private $searchKey;
-    	                        
-	public function setSearchKey($searchKey){
-		$this->searchKey = $searchKey;
-         $this->apiParas["searchKey"] = $searchKey;
-	}
+    private $apiParas = array();
 
-	public function getSearchKey(){
-	  return $this->searchKey;
-	}
+    public function getApiMethodName()
+    {
+        return "jingdong.ware.read.searchWare4Recycled";
+    }
 
-                        	                   	                    		private $searchField;
-    	                        
-	public function setSearchField($searchField){
-		$this->searchField = $searchField;
-         $this->apiParas["searchField"] = $searchField;
-	}
+    public function getApiParas()
+    {
+        return json_encode($this->apiParas);
+    }
 
-	public function getSearchField(){
-	  return $this->searchField;
-	}
+    public function check()
+    {
 
-                        	                   			private $categoryId;
-    	                        
-	public function setCategoryId($categoryId){
-		$this->categoryId = $categoryId;
-         $this->apiParas["categoryId"] = $categoryId;
-	}
+    }
 
-	public function getCategoryId(){
-	  return $this->categoryId;
-	}
+    public function putOtherTextParam($key, $value)
+    {
+        $this->apiParas[$key] = $value;
+        $this->$key = $value;
+    }
 
-                        	                   			private $shopCategoryIdLevel1;
-    	                        
-	public function setShopCategoryIdLevel1($shopCategoryIdLevel1){
-		$this->shopCategoryIdLevel1 = $shopCategoryIdLevel1;
-         $this->apiParas["shopCategoryIdLevel1"] = $shopCategoryIdLevel1;
-	}
+    private $searchKey;
 
-	public function getShopCategoryIdLevel1(){
-	  return $this->shopCategoryIdLevel1;
-	}
+    public function setSearchKey($searchKey)
+    {
+        $this->searchKey = $searchKey;
+        $this->apiParas["searchKey"] = $searchKey;
+    }
 
-                        	                   			private $shopCategoryIdLevel2;
-    	                        
-	public function setShopCategoryIdLevel2($shopCategoryIdLevel2){
-		$this->shopCategoryIdLevel2 = $shopCategoryIdLevel2;
-         $this->apiParas["shopCategoryIdLevel2"] = $shopCategoryIdLevel2;
-	}
+    public function getSearchKey()
+    {
+        return $this->searchKey;
+    }
 
-	public function getShopCategoryIdLevel2(){
-	  return $this->shopCategoryIdLevel2;
-	}
+    private $searchField;
 
-                        	                   			private $templateId;
-    	                        
-	public function setTemplateId($templateId){
-		$this->templateId = $templateId;
-         $this->apiParas["templateId"] = $templateId;
-	}
+    public function setSearchField($searchField)
+    {
+        $this->searchField = $searchField;
+        $this->apiParas["searchField"] = $searchField;
+    }
 
-	public function getTemplateId(){
-	  return $this->templateId;
-	}
+    public function getSearchField()
+    {
+        return $this->searchField;
+    }
 
-                        	                   			private $promiseId;
-    	                        
-	public function setPromiseId($promiseId){
-		$this->promiseId = $promiseId;
-         $this->apiParas["promiseId"] = $promiseId;
-	}
+    private $categoryId;
 
-	public function getPromiseId(){
-	  return $this->promiseId;
-	}
+    public function setCategoryId($categoryId)
+    {
+        $this->categoryId = $categoryId;
+        $this->apiParas["categoryId"] = $categoryId;
+    }
 
-                        	                   			private $brandId;
-    	                        
-	public function setBrandId($brandId){
-		$this->brandId = $brandId;
-         $this->apiParas["brandId"] = $brandId;
-	}
+    public function getCategoryId()
+    {
+        return $this->categoryId;
+    }
 
-	public function getBrandId(){
-	  return $this->brandId;
-	}
+    private $shopCategoryIdLevel1;
 
-                                                 	                        	                                                                                                                                                                                                                                                                                                               private $featureKey;
-                              public function setFeatureKey($featureKey ){
-                 $this->featureKey=$featureKey;
-                 $this->apiParas["featureKey"] = $featureKey;
-              }
+    public function setShopCategoryIdLevel1($shopCategoryIdLevel1)
+    {
+        $this->shopCategoryIdLevel1 = $shopCategoryIdLevel1;
+        $this->apiParas["shopCategoryIdLevel1"] = $shopCategoryIdLevel1;
+    }
 
-              public function getFeatureKey(){
-              	return $this->featureKey;
-              }
-                                                                                                                                                                                                                                                                                                                                              private $featureValue;
-                              public function setFeatureValue($featureValue ){
-                 $this->featureValue=$featureValue;
-                 $this->apiParas["featureValue"] = $featureValue;
-              }
+    public function getShopCategoryIdLevel1()
+    {
+        return $this->shopCategoryIdLevel1;
+    }
 
-              public function getFeatureValue(){
-              	return $this->featureValue;
-              }
-                                                                                                                                                                 	                        	                                                                                                                                                                                                                                                                                                               private $wareStatusValue;
-                              public function setWareStatusValue($wareStatusValue ){
-                 $this->wareStatusValue=$wareStatusValue;
-                 $this->apiParas["wareStatusValue"] = $wareStatusValue;
-              }
+    private $shopCategoryIdLevel2;
 
-              public function getWareStatusValue(){
-              	return $this->wareStatusValue;
-              }
-                                                                                                                                        	                   			private $itemNum;
-    	                        
-	public function setItemNum($itemNum){
-		$this->itemNum = $itemNum;
-         $this->apiParas["itemNum"] = $itemNum;
-	}
+    public function setShopCategoryIdLevel2($shopCategoryIdLevel2)
+    {
+        $this->shopCategoryIdLevel2 = $shopCategoryIdLevel2;
+        $this->apiParas["shopCategoryIdLevel2"] = $shopCategoryIdLevel2;
+    }
 
-	public function getItemNum(){
-	  return $this->itemNum;
-	}
+    public function getShopCategoryIdLevel2()
+    {
+        return $this->shopCategoryIdLevel2;
+    }
 
-                        	                   			private $barCode;
-    	                        
-	public function setBarCode($barCode){
-		$this->barCode = $barCode;
-         $this->apiParas["barCode"] = $barCode;
-	}
+    private $templateId;
 
-	public function getBarCode(){
-	  return $this->barCode;
-	}
+    public function setTemplateId($templateId)
+    {
+        $this->templateId = $templateId;
+        $this->apiParas["templateId"] = $templateId;
+    }
 
-                        	                   			private $colType;
-    	                        
-	public function setColType($colType){
-		$this->colType = $colType;
-         $this->apiParas["colType"] = $colType;
-	}
+    public function getTemplateId()
+    {
+        return $this->templateId;
+    }
 
-	public function getColType(){
-	  return $this->colType;
-	}
+    private $promiseId;
 
-                        	                   			private $startCreatedTime;
-    	                        
-	public function setStartCreatedTime($startCreatedTime){
-		$this->startCreatedTime = $startCreatedTime;
-         $this->apiParas["startCreatedTime"] = $startCreatedTime;
-	}
+    public function setPromiseId($promiseId)
+    {
+        $this->promiseId = $promiseId;
+        $this->apiParas["promiseId"] = $promiseId;
+    }
 
-	public function getStartCreatedTime(){
-	  return $this->startCreatedTime;
-	}
+    public function getPromiseId()
+    {
+        return $this->promiseId;
+    }
 
-                        	                   			private $endCreatedTime;
-    	                        
-	public function setEndCreatedTime($endCreatedTime){
-		$this->endCreatedTime = $endCreatedTime;
-         $this->apiParas["endCreatedTime"] = $endCreatedTime;
-	}
+    private $brandId;
 
-	public function getEndCreatedTime(){
-	  return $this->endCreatedTime;
-	}
+    public function setBrandId($brandId)
+    {
+        $this->brandId = $brandId;
+        $this->apiParas["brandId"] = $brandId;
+    }
 
-                        	                   			private $startJdPrice;
-    	                        
-	public function setStartJdPrice($startJdPrice){
-		$this->startJdPrice = $startJdPrice;
-         $this->apiParas["startJdPrice"] = $startJdPrice;
-	}
+    public function getBrandId()
+    {
+        return $this->brandId;
+    }
 
-	public function getStartJdPrice(){
-	  return $this->startJdPrice;
-	}
+    private $featureKey;
 
-                        	                   			private $endJdPrice;
-    	                        
-	public function setEndJdPrice($endJdPrice){
-		$this->endJdPrice = $endJdPrice;
-         $this->apiParas["endJdPrice"] = $endJdPrice;
-	}
+    public function setFeatureKey($featureKey)
+    {
+        $this->featureKey = $featureKey;
+        $this->apiParas["featureKey"] = $featureKey;
+    }
 
-	public function getEndJdPrice(){
-	  return $this->endJdPrice;
-	}
+    public function getFeatureKey()
+    {
+        return $this->featureKey;
+    }
 
-                        	                   			private $startOnlineTime;
-    	                        
-	public function setStartOnlineTime($startOnlineTime){
-		$this->startOnlineTime = $startOnlineTime;
-         $this->apiParas["startOnlineTime"] = $startOnlineTime;
-	}
+    private $featureValue;
 
-	public function getStartOnlineTime(){
-	  return $this->startOnlineTime;
-	}
+    public function setFeatureValue($featureValue)
+    {
+        $this->featureValue = $featureValue;
+        $this->apiParas["featureValue"] = $featureValue;
+    }
 
-                        	                   			private $endOnlineTime;
-    	                        
-	public function setEndOnlineTime($endOnlineTime){
-		$this->endOnlineTime = $endOnlineTime;
-         $this->apiParas["endOnlineTime"] = $endOnlineTime;
-	}
+    public function getFeatureValue()
+    {
+        return $this->featureValue;
+    }
 
-	public function getEndOnlineTime(){
-	  return $this->endOnlineTime;
-	}
+    private $wareStatusValue;
 
-                        	                   			private $startModifiedTime;
-    	                        
-	public function setStartModifiedTime($startModifiedTime){
-		$this->startModifiedTime = $startModifiedTime;
-         $this->apiParas["startModifiedTime"] = $startModifiedTime;
-	}
+    public function setWareStatusValue($wareStatusValue)
+    {
+        $this->wareStatusValue = $wareStatusValue;
+        $this->apiParas["wareStatusValue"] = $wareStatusValue;
+    }
 
-	public function getStartModifiedTime(){
-	  return $this->startModifiedTime;
-	}
+    public function getWareStatusValue()
+    {
+        return $this->wareStatusValue;
+    }
 
-                        	                   			private $endModifiedTime;
-    	                        
-	public function setEndModifiedTime($endModifiedTime){
-		$this->endModifiedTime = $endModifiedTime;
-         $this->apiParas["endModifiedTime"] = $endModifiedTime;
-	}
+    private $itemNum;
 
-	public function getEndModifiedTime(){
-	  return $this->endModifiedTime;
-	}
+    public function setItemNum($itemNum)
+    {
+        $this->itemNum = $itemNum;
+        $this->apiParas["itemNum"] = $itemNum;
+    }
 
-                        	                   			private $startOfflineTime;
-    	                        
-	public function setStartOfflineTime($startOfflineTime){
-		$this->startOfflineTime = $startOfflineTime;
-         $this->apiParas["startOfflineTime"] = $startOfflineTime;
-	}
+    public function getItemNum()
+    {
+        return $this->itemNum;
+    }
 
-	public function getStartOfflineTime(){
-	  return $this->startOfflineTime;
-	}
+    private $barCode;
 
-                        	                   			private $endOfflineTime;
-    	                        
-	public function setEndOfflineTime($endOfflineTime){
-		$this->endOfflineTime = $endOfflineTime;
-         $this->apiParas["endOfflineTime"] = $endOfflineTime;
-	}
+    public function setBarCode($barCode)
+    {
+        $this->barCode = $barCode;
+        $this->apiParas["barCode"] = $barCode;
+    }
 
-	public function getEndOfflineTime(){
-	  return $this->endOfflineTime;
-	}
+    public function getBarCode()
+    {
+        return $this->barCode;
+    }
 
-                        	                   			private $startStockNum;
-    	                        
-	public function setStartStockNum($startStockNum){
-		$this->startStockNum = $startStockNum;
-         $this->apiParas["startStockNum"] = $startStockNum;
-	}
+    private $colType;
 
-	public function getStartStockNum(){
-	  return $this->startStockNum;
-	}
+    public function setColType($colType)
+    {
+        $this->colType = $colType;
+        $this->apiParas["colType"] = $colType;
+    }
 
-                        	                   			private $endStockNum;
-    	                        
-	public function setEndStockNum($endStockNum){
-		$this->endStockNum = $endStockNum;
-         $this->apiParas["endStockNum"] = $endStockNum;
-	}
+    public function getColType()
+    {
+        return $this->colType;
+    }
 
-	public function getEndStockNum(){
-	  return $this->endStockNum;
-	}
+    private $startCreatedTime;
 
-                                                 	                        	                                                                                                                                                                                                                                                                                                               private $orderField;
-                              public function setOrderField($orderField ){
-                 $this->orderField=$orderField;
-                 $this->apiParas["orderField"] = $orderField;
-              }
+    public function setStartCreatedTime($startCreatedTime)
+    {
+        $this->startCreatedTime = $startCreatedTime;
+        $this->apiParas["startCreatedTime"] = $startCreatedTime;
+    }
 
-              public function getOrderField(){
-              	return $this->orderField;
-              }
-                                                                                                                                                                                                                                                                                                                                              private $orderType;
-                              public function setOrderType($orderType ){
-                 $this->orderType=$orderType;
-                 $this->apiParas["orderType"] = $orderType;
-              }
+    public function getStartCreatedTime()
+    {
+        return $this->startCreatedTime;
+    }
 
-              public function getOrderType(){
-              	return $this->orderType;
-              }
-                                                                                                                                        	                   			private $pageNo;
-    	                        
-	public function setPageNo($pageNo){
-		$this->pageNo = $pageNo;
-         $this->apiParas["pageNo"] = $pageNo;
-	}
+    private $endCreatedTime;
 
-	public function getPageNo(){
-	  return $this->pageNo;
-	}
+    public function setEndCreatedTime($endCreatedTime)
+    {
+        $this->endCreatedTime = $endCreatedTime;
+        $this->apiParas["endCreatedTime"] = $endCreatedTime;
+    }
 
-                        	                                                    	                   	                    		private $field;
-    	                        
-	public function setField($field){
-		$this->field = $field;
-         $this->apiParas["field"] = $field;
-	}
+    public function getEndCreatedTime()
+    {
+        return $this->endCreatedTime;
+    }
 
-	public function getField(){
-	  return $this->field;
-	}
+    private $startJdPrice;
+
+    public function setStartJdPrice($startJdPrice)
+    {
+        $this->startJdPrice = $startJdPrice;
+        $this->apiParas["startJdPrice"] = $startJdPrice;
+    }
+
+    public function getStartJdPrice()
+    {
+        return $this->startJdPrice;
+    }
+
+    private $endJdPrice;
+
+    public function setEndJdPrice($endJdPrice)
+    {
+        $this->endJdPrice = $endJdPrice;
+        $this->apiParas["endJdPrice"] = $endJdPrice;
+    }
+
+    public function getEndJdPrice()
+    {
+        return $this->endJdPrice;
+    }
+
+    private $startOnlineTime;
+
+    public function setStartOnlineTime($startOnlineTime)
+    {
+        $this->startOnlineTime = $startOnlineTime;
+        $this->apiParas["startOnlineTime"] = $startOnlineTime;
+    }
+
+    public function getStartOnlineTime()
+    {
+        return $this->startOnlineTime;
+    }
+
+    private $endOnlineTime;
+
+    public function setEndOnlineTime($endOnlineTime)
+    {
+        $this->endOnlineTime = $endOnlineTime;
+        $this->apiParas["endOnlineTime"] = $endOnlineTime;
+    }
+
+    public function getEndOnlineTime()
+    {
+        return $this->endOnlineTime;
+    }
+
+    private $startModifiedTime;
+
+    public function setStartModifiedTime($startModifiedTime)
+    {
+        $this->startModifiedTime = $startModifiedTime;
+        $this->apiParas["startModifiedTime"] = $startModifiedTime;
+    }
+
+    public function getStartModifiedTime()
+    {
+        return $this->startModifiedTime;
+    }
+
+    private $endModifiedTime;
+
+    public function setEndModifiedTime($endModifiedTime)
+    {
+        $this->endModifiedTime = $endModifiedTime;
+        $this->apiParas["endModifiedTime"] = $endModifiedTime;
+    }
+
+    public function getEndModifiedTime()
+    {
+        return $this->endModifiedTime;
+    }
+
+    private $startOfflineTime;
+
+    public function setStartOfflineTime($startOfflineTime)
+    {
+        $this->startOfflineTime = $startOfflineTime;
+        $this->apiParas["startOfflineTime"] = $startOfflineTime;
+    }
+
+    public function getStartOfflineTime()
+    {
+        return $this->startOfflineTime;
+    }
+
+    private $endOfflineTime;
+
+    public function setEndOfflineTime($endOfflineTime)
+    {
+        $this->endOfflineTime = $endOfflineTime;
+        $this->apiParas["endOfflineTime"] = $endOfflineTime;
+    }
+
+    public function getEndOfflineTime()
+    {
+        return $this->endOfflineTime;
+    }
+
+    private $startStockNum;
+
+    public function setStartStockNum($startStockNum)
+    {
+        $this->startStockNum = $startStockNum;
+        $this->apiParas["startStockNum"] = $startStockNum;
+    }
+
+    public function getStartStockNum()
+    {
+        return $this->startStockNum;
+    }
+
+    private $endStockNum;
+
+    public function setEndStockNum($endStockNum)
+    {
+        $this->endStockNum = $endStockNum;
+        $this->apiParas["endStockNum"] = $endStockNum;
+    }
+
+    public function getEndStockNum()
+    {
+        return $this->endStockNum;
+    }
+
+    private $orderField;
+
+    public function setOrderField($orderField)
+    {
+        $this->orderField = $orderField;
+        $this->apiParas["orderField"] = $orderField;
+    }
+
+    public function getOrderField()
+    {
+        return $this->orderField;
+    }
+
+    private $orderType;
+
+    public function setOrderType($orderType)
+    {
+        $this->orderType = $orderType;
+        $this->apiParas["orderType"] = $orderType;
+    }
+
+    public function getOrderType()
+    {
+        return $this->orderType;
+    }
+
+    private $pageNo;
+
+    public function setPageNo($pageNo)
+    {
+        $this->pageNo = $pageNo;
+        $this->apiParas["pageNo"] = $pageNo;
+    }
+
+    public function getPageNo()
+    {
+        return $this->pageNo;
+    }
+
+    private $field;
+
+    public function setField($field)
+    {
+        $this->field = $field;
+        $this->apiParas["field"] = $field;
+    }
+
+    public function getField()
+    {
+        return $this->field;
+    }
 
 }
 

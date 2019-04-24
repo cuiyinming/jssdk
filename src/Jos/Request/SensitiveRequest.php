@@ -1,10 +1,9 @@
 <?php
-namespace Jos\Request;
-use Jos\RequestCheckUtil;
 
 namespace Jos\Request;
 
 use Jos\RequestCheckUtil;
+
 
 class SensitiveRequest
 {
@@ -28,14 +27,14 @@ class SensitiveRequest
     public function putOtherTextParam($key, $value)
     {
         $this->apiParas[$key] = $value;
-        $this->$key           = $value;
+        $this->$key = $value;
     }
 
     private $paramStrin;
 
     public function setParamStrin($paramStrin)
     {
-        $this->paramStrin             = $paramStrin;
+        $this->paramStrin = $paramStrin;
         $this->apiParas["paramStrin"] = $paramStrin;
     }
 
@@ -48,7 +47,7 @@ class SensitiveRequest
 
     public function setParam($param)
     {
-        $this->param             = $param;
+        $this->param = $param;
         $this->apiParas["param"] = $param;
     }
 
@@ -61,7 +60,7 @@ class SensitiveRequest
 
     public function setV1($v1)
     {
-        $this->v1             = $v1;
+        $this->v1 = $v1;
         $this->apiParas["v1"] = $v1;
     }
 

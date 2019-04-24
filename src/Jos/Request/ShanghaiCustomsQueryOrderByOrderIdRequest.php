@@ -1,6 +1,5 @@
 <?php
-namespace Jos\Request;
-use Jos\RequestCheckUtil;
+
 
 namespace Jos\Request;
 
@@ -28,14 +27,14 @@ class ShanghaiCustomsQueryOrderByOrderIdRequest
     public function putOtherTextParam($key, $value)
     {
         $this->apiParas[$key] = $value;
-        $this->$key           = $value;
+        $this->$key = $value;
     }
 
     private $orderId;
 
     public function setOrderId($orderId)
     {
-        $this->orderId             = $orderId;
+        $this->orderId = $orderId;
         $this->apiParas["orderId"] = $orderId;
     }
 

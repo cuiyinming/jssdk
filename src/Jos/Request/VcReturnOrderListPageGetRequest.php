@@ -1,104 +1,126 @@
 <?php
+
 namespace Jos\Request;
+
 use Jos\RequestCheckUtil;
+
 class VcReturnOrderListPageGetRequest
 {
-	private $apiParas = array();
-	
-	public function getApiMethodName(){
-	  return "jingdong.vc.return.order.list.page.get";
-	}
-	
-	public function getApiParas(){
-		return json_encode($this->apiParas);
-	}
-	
-	public function check(){
-		
-	}
-	
-	public function putOtherTextParam($key, $value){
-		$this->apiParas[$key] = $value;
-		$this->$key = $value;
-	}
-                                                        		                                    	                   			private $returnId;
-    	                        
-	public function setReturnId($returnId){
-		$this->returnId = $returnId;
-         $this->apiParas["returnId"] = $returnId;
-	}
+    private $apiParas = array();
 
-	public function getReturnId(){
-	  return $this->returnId;
-	}
+    public function getApiMethodName()
+    {
+        return "jingdong.vc.return.order.list.page.get";
+    }
 
-                        	                   			private $fromDeliverCenterId;
-    	                        
-	public function setFromDeliverCenterId($fromDeliverCenterId){
-		$this->fromDeliverCenterId = $fromDeliverCenterId;
-         $this->apiParas["fromDeliverCenterId"] = $fromDeliverCenterId;
-	}
+    public function getApiParas()
+    {
+        return json_encode($this->apiParas);
+    }
 
-	public function getFromDeliverCenterId(){
-	  return $this->fromDeliverCenterId;
-	}
+    public function check()
+    {
 
-                        	                   			private $returnStates;
-    	                        
-	public function setReturnStates($returnStates){
-		$this->returnStates = $returnStates;
-         $this->apiParas["returnStates"] = $returnStates;
-	}
+    }
 
-	public function getReturnStates(){
-	  return $this->returnStates;
-	}
+    public function putOtherTextParam($key, $value)
+    {
+        $this->apiParas[$key] = $value;
+        $this->$key = $value;
+    }
 
-                        	                   			private $createDateBegin;
-    	                        
-	public function setCreateDateBegin($createDateBegin){
-		$this->createDateBegin = $createDateBegin;
-         $this->apiParas["createDateBegin"] = $createDateBegin;
-	}
+    private $returnId;
 
-	public function getCreateDateBegin(){
-	  return $this->createDateBegin;
-	}
+    public function setReturnId($returnId)
+    {
+        $this->returnId = $returnId;
+        $this->apiParas["returnId"] = $returnId;
+    }
 
-                        	                   			private $createDateEnd;
-    	                        
-	public function setCreateDateEnd($createDateEnd){
-		$this->createDateEnd = $createDateEnd;
-         $this->apiParas["createDateEnd"] = $createDateEnd;
-	}
+    public function getReturnId()
+    {
+        return $this->returnId;
+    }
 
-	public function getCreateDateEnd(){
-	  return $this->createDateEnd;
-	}
+    private $fromDeliverCenterId;
 
-                        	                        	                   			private $pageSize;
-    	                        
-	public function setPageSize($pageSize){
-		$this->pageSize = $pageSize;
-         $this->apiParas["pageSize"] = $pageSize;
-	}
+    public function setFromDeliverCenterId($fromDeliverCenterId)
+    {
+        $this->fromDeliverCenterId = $fromDeliverCenterId;
+        $this->apiParas["fromDeliverCenterId"] = $fromDeliverCenterId;
+    }
 
-	public function getPageSize(){
-	  return $this->pageSize;
-	}
+    public function getFromDeliverCenterId()
+    {
+        return $this->fromDeliverCenterId;
+    }
 
-                        	                   			private $pageIndex;
-    	                        
-	public function setPageIndex($pageIndex){
-		$this->pageIndex = $pageIndex;
-         $this->apiParas["pageIndex"] = $pageIndex;
-	}
+    private $returnStates;
 
-	public function getPageIndex(){
-	  return $this->pageIndex;
-	}
+    public function setReturnStates($returnStates)
+    {
+        $this->returnStates = $returnStates;
+        $this->apiParas["returnStates"] = $returnStates;
+    }
 
-                            }
+    public function getReturnStates()
+    {
+        return $this->returnStates;
+    }
+
+    private $createDateBegin;
+
+    public function setCreateDateBegin($createDateBegin)
+    {
+        $this->createDateBegin = $createDateBegin;
+        $this->apiParas["createDateBegin"] = $createDateBegin;
+    }
+
+    public function getCreateDateBegin()
+    {
+        return $this->createDateBegin;
+    }
+
+    private $createDateEnd;
+
+    public function setCreateDateEnd($createDateEnd)
+    {
+        $this->createDateEnd = $createDateEnd;
+        $this->apiParas["createDateEnd"] = $createDateEnd;
+    }
+
+    public function getCreateDateEnd()
+    {
+        return $this->createDateEnd;
+    }
+
+    private $pageSize;
+
+    public function setPageSize($pageSize)
+    {
+        $this->pageSize = $pageSize;
+        $this->apiParas["pageSize"] = $pageSize;
+    }
+
+    public function getPageSize()
+    {
+        return $this->pageSize;
+    }
+
+    private $pageIndex;
+
+    public function setPageIndex($pageIndex)
+    {
+        $this->pageIndex = $pageIndex;
+        $this->apiParas["pageIndex"] = $pageIndex;
+    }
+
+    public function getPageIndex()
+    {
+        return $this->pageIndex;
+    }
+
+}
 
 
 

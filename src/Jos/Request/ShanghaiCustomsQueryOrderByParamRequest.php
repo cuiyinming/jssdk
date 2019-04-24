@@ -1,10 +1,9 @@
 <?php
-namespace Jos\Request;
-use Jos\RequestCheckUtil;
 
 namespace Jos\Request;
 
 use Jos\RequestCheckUtil;
+
 
 class ShanghaiCustomsQueryOrderByParamRequest
 {
@@ -28,14 +27,14 @@ class ShanghaiCustomsQueryOrderByParamRequest
     public function putOtherTextParam($key, $value)
     {
         $this->apiParas[$key] = $value;
-        $this->$key           = $value;
+        $this->$key = $value;
     }
 
     private $beginDate;
 
     public function setBeginDate($beginDate)
     {
-        $this->beginDate             = $beginDate;
+        $this->beginDate = $beginDate;
         $this->apiParas["beginDate"] = $beginDate;
     }
 
@@ -48,7 +47,7 @@ class ShanghaiCustomsQueryOrderByParamRequest
 
     public function setEndDate($endDate)
     {
-        $this->endDate             = $endDate;
+        $this->endDate = $endDate;
         $this->apiParas["endDate"] = $endDate;
     }
 
@@ -61,7 +60,7 @@ class ShanghaiCustomsQueryOrderByParamRequest
 
     public function setPage($page)
     {
-        $this->page             = $page;
+        $this->page = $page;
         $this->apiParas["page"] = $page;
     }
 
@@ -74,7 +73,7 @@ class ShanghaiCustomsQueryOrderByParamRequest
 
     public function setType($type)
     {
-        $this->type             = $type;
+        $this->type = $type;
         $this->apiParas["type"] = $type;
     }
 

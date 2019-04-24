@@ -1,10 +1,9 @@
 <?php
-namespace Jos\Request;
-use Jos\RequestCheckUtil;
 
 namespace Jos\Request;
 
 use Jos\RequestCheckUtil;
+
 
 class VenderShopcategoryFindSubShopCategoriesByParentCidRequest
 {
@@ -28,14 +27,14 @@ class VenderShopcategoryFindSubShopCategoriesByParentCidRequest
     public function putOtherTextParam($key, $value)
     {
         $this->apiParas[$key] = $value;
-        $this->$key           = $value;
+        $this->$key = $value;
     }
 
     private $parentCid;
 
     public function setParentCid($parentCid)
     {
-        $this->parentCid              = $parentCid;
+        $this->parentCid = $parentCid;
         $this->apiParas["parent_cid"] = $parentCid;
     }
 

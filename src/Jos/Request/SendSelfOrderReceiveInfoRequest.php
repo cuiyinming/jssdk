@@ -1,93 +1,113 @@
 <?php
+
 namespace Jos\Request;
+
 use Jos\RequestCheckUtil;
+
 class SendSelfOrderReceiveInfoRequest
 {
-	private $apiParas = array();
-	
-	public function getApiMethodName(){
-	  return "jingdong.sendSelfOrderReceiveInfo";
-	}
-	
-	public function getApiParas(){
-		return json_encode($this->apiParas);
-	}
-	
-	public function check(){
-		
-	}
-	
-	public function putOtherTextParam($key, $value){
-		$this->apiParas[$key] = $value;
-		$this->$key = $value;
-	}
-                                    	                   			private $authorizedSequence;
-    	                        
-	public function setAuthorizedSequence($authorizedSequence){
-		$this->authorizedSequence = $authorizedSequence;
-         $this->apiParas["authorizedSequence"] = $authorizedSequence;
-	}
+    private $apiParas = array();
 
-	public function getAuthorizedSequence(){
-	  return $this->authorizedSequence;
-	}
+    public function getApiMethodName()
+    {
+        return "jingdong.sendSelfOrderReceiveInfo";
+    }
 
-                        	                   			private $serviceType;
-    	                        
-	public function setServiceType($serviceType){
-		$this->serviceType = $serviceType;
-         $this->apiParas["serviceType"] = $serviceType;
-	}
+    public function getApiParas()
+    {
+        return json_encode($this->apiParas);
+    }
 
-	public function getServiceType(){
-	  return $this->serviceType;
-	}
+    public function check()
+    {
 
-                                            		                                    	                   			private $orderNo;
-    	                        
-	public function setOrderNo($orderNo){
-		$this->orderNo = $orderNo;
-         $this->apiParas["orderNo"] = $orderNo;
-	}
+    }
 
-	public function getOrderNo(){
-	  return $this->orderNo;
-	}
+    public function putOtherTextParam($key, $value)
+    {
+        $this->apiParas[$key] = $value;
+        $this->$key = $value;
+    }
 
-                        	                   			private $disposeTime;
-    	                        
-	public function setDisposeTime($disposeTime){
-		$this->disposeTime = $disposeTime;
-         $this->apiParas["disposeTime"] = $disposeTime;
-	}
+    private $authorizedSequence;
 
-	public function getDisposeTime(){
-	  return $this->disposeTime;
-	}
+    public function setAuthorizedSequence($authorizedSequence)
+    {
+        $this->authorizedSequence = $authorizedSequence;
+        $this->apiParas["authorizedSequence"] = $authorizedSequence;
+    }
 
-                        	                   			private $disposeResult;
-    	                        
-	public function setDisposeResult($disposeResult){
-		$this->disposeResult = $disposeResult;
-         $this->apiParas["disposeResult"] = $disposeResult;
-	}
+    public function getAuthorizedSequence()
+    {
+        return $this->authorizedSequence;
+    }
 
-	public function getDisposeResult(){
-	  return $this->disposeResult;
-	}
+    private $serviceType;
 
-                        	                   			private $remark;
-    	                        
-	public function setRemark($remark){
-		$this->remark = $remark;
-         $this->apiParas["remark"] = $remark;
-	}
+    public function setServiceType($serviceType)
+    {
+        $this->serviceType = $serviceType;
+        $this->apiParas["serviceType"] = $serviceType;
+    }
 
-	public function getRemark(){
-	  return $this->remark;
-	}
+    public function getServiceType()
+    {
+        return $this->serviceType;
+    }
 
-                            }
+    private $orderNo;
+
+    public function setOrderNo($orderNo)
+    {
+        $this->orderNo = $orderNo;
+        $this->apiParas["orderNo"] = $orderNo;
+    }
+
+    public function getOrderNo()
+    {
+        return $this->orderNo;
+    }
+
+    private $disposeTime;
+
+    public function setDisposeTime($disposeTime)
+    {
+        $this->disposeTime = $disposeTime;
+        $this->apiParas["disposeTime"] = $disposeTime;
+    }
+
+    public function getDisposeTime()
+    {
+        return $this->disposeTime;
+    }
+
+    private $disposeResult;
+
+    public function setDisposeResult($disposeResult)
+    {
+        $this->disposeResult = $disposeResult;
+        $this->apiParas["disposeResult"] = $disposeResult;
+    }
+
+    public function getDisposeResult()
+    {
+        return $this->disposeResult;
+    }
+
+    private $remark;
+
+    public function setRemark($remark)
+    {
+        $this->remark = $remark;
+        $this->apiParas["remark"] = $remark;
+    }
+
+    public function getRemark()
+    {
+        return $this->remark;
+    }
+
+}
 
 
 

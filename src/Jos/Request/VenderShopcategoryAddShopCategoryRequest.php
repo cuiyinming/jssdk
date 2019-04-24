@@ -1,10 +1,9 @@
 <?php
-namespace Jos\Request;
-use Jos\RequestCheckUtil;
 
 namespace Jos\Request;
 
 use Jos\RequestCheckUtil;
+
 
 class VenderShopcategoryAddShopCategoryRequest
 {
@@ -28,14 +27,14 @@ class VenderShopcategoryAddShopCategoryRequest
     public function putOtherTextParam($key, $value)
     {
         $this->apiParas[$key] = $value;
-        $this->$key           = $value;
+        $this->$key = $value;
     }
 
     private $name;
 
     public function setName($name)
     {
-        $this->name             = $name;
+        $this->name = $name;
         $this->apiParas["name"] = $name;
     }
 
@@ -48,7 +47,7 @@ class VenderShopcategoryAddShopCategoryRequest
 
     public function setParentCid($parentCid)
     {
-        $this->parentCid              = $parentCid;
+        $this->parentCid = $parentCid;
         $this->apiParas["parent_cid"] = $parentCid;
     }
 
@@ -61,7 +60,7 @@ class VenderShopcategoryAddShopCategoryRequest
 
     public function setIsHomeShow($isHomeShow)
     {
-        $this->isHomeShow               = $isHomeShow;
+        $this->isHomeShow = $isHomeShow;
         $this->apiParas["is_home_show"] = $isHomeShow;
     }
 
@@ -74,7 +73,7 @@ class VenderShopcategoryAddShopCategoryRequest
 
     public function setIsOpen($isOpen)
     {
-        $this->isOpen              = $isOpen;
+        $this->isOpen = $isOpen;
         $this->apiParas["is_open"] = $isOpen;
     }
 
@@ -87,7 +86,7 @@ class VenderShopcategoryAddShopCategoryRequest
 
     public function setOrderNo($orderNo)
     {
-        $this->orderNo              = $orderNo;
+        $this->orderNo = $orderNo;
         $this->apiParas["order_no"] = $orderNo;
     }
 

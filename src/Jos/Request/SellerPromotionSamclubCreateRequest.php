@@ -1,10 +1,9 @@
 <?php
-namespace Jos\Request;
-use Jos\RequestCheckUtil;
 
 namespace Jos\Request;
 
 use Jos\RequestCheckUtil;
+
 
 class SellerPromotionSamclubCreateRequest
 {
@@ -28,14 +27,14 @@ class SellerPromotionSamclubCreateRequest
     public function putOtherTextParam($key, $value)
     {
         $this->apiParas[$key] = $value;
-        $this->$key           = $value;
+        $this->$key = $value;
     }
 
     private $appSecret;
 
     public function setAppSecret($appSecret)
     {
-        $this->appSecret              = $appSecret;
+        $this->appSecret = $appSecret;
         $this->apiParas["app_secret"] = $appSecret;
     }
 
@@ -48,7 +47,7 @@ class SellerPromotionSamclubCreateRequest
 
     public function setIp($ip)
     {
-        $this->ip             = $ip;
+        $this->ip = $ip;
         $this->apiParas["ip"] = $ip;
     }
 
@@ -61,7 +60,7 @@ class SellerPromotionSamclubCreateRequest
 
     public function setHostName($hostName)
     {
-        $this->hostName              = $hostName;
+        $this->hostName = $hostName;
         $this->apiParas["host_name"] = $hostName;
     }
 
@@ -74,7 +73,7 @@ class SellerPromotionSamclubCreateRequest
 
     public function setDeployAppName($deployAppName)
     {
-        $this->deployAppName               = $deployAppName;
+        $this->deployAppName = $deployAppName;
         $this->apiParas["deploy_app_name"] = $deployAppName;
     }
 
@@ -87,7 +86,7 @@ class SellerPromotionSamclubCreateRequest
 
     public function setDeployAppId($deployAppId)
     {
-        $this->deployAppId               = $deployAppId;
+        $this->deployAppId = $deployAppId;
         $this->apiParas["deploy_app_id"] = $deployAppId;
     }
 
@@ -100,7 +99,7 @@ class SellerPromotionSamclubCreateRequest
 
     public function setRequestId($requestId)
     {
-        $this->requestId             = $requestId;
+        $this->requestId = $requestId;
         $this->apiParas["requestId"] = $requestId;
     }
 
@@ -113,7 +112,7 @@ class SellerPromotionSamclubCreateRequest
 
     public function setSkuId($skuId)
     {
-        $this->skuId              = $skuId;
+        $this->skuId = $skuId;
         $this->apiParas["sku_id"] = $skuId;
     }
 
@@ -126,7 +125,7 @@ class SellerPromotionSamclubCreateRequest
 
     public function setNormalPrice($normalPrice)
     {
-        $this->normalPrice              = $normalPrice;
+        $this->normalPrice = $normalPrice;
         $this->apiParas["normal_price"] = $normalPrice;
     }
 
@@ -139,7 +138,7 @@ class SellerPromotionSamclubCreateRequest
 
     public function setClubPrice($clubPrice)
     {
-        $this->clubPrice              = $clubPrice;
+        $this->clubPrice = $clubPrice;
         $this->apiParas["club_price"] = $clubPrice;
     }
 

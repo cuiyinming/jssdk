@@ -2,9 +2,6 @@
 namespace Jos\Request;
 use Jos\RequestCheckUtil;
 
-namespace Jos\Request;
-
-use Jos\RequestCheckUtil;
 
 class ZgbOrderRequest
 {

@@ -1,203 +1,243 @@
 <?php
+
 namespace Jos\Request;
+
 use Jos\RequestCheckUtil;
+
 class VssPromotionCreateunitpromoRequest
 {
-	private $apiParas = array();
-	
-	public function getApiMethodName(){
-	  return "jingdong.vss.promotion.createunitpromo";
-	}
-	
-	public function getApiParas(){
-		return json_encode($this->apiParas);
-	}
-	
-	public function check(){
-		
-	}
-	
-	public function putOtherTextParam($key, $value){
-		$this->apiParas[$key] = $value;
-		$this->$key = $value;
-	}
-                                                        		                                    	                        	                   			private $wareId;
-    	                                                            
-	public function setWareId($wareId){
-		$this->wareId = $wareId;
-         $this->apiParas["ware_id"] = $wareId;
-	}
+    private $apiParas = array();
 
-	public function getWareId(){
-	  return $this->wareId;
-	}
+    public function getApiMethodName()
+    {
+        return "jingdong.vss.promotion.createunitpromo";
+    }
 
-                        	                   			private $channels;
-    	                        
-	public function setChannels($channels){
-		$this->channels = $channels;
-         $this->apiParas["channels"] = $channels;
-	}
+    public function getApiParas()
+    {
+        return json_encode($this->apiParas);
+    }
 
-	public function getChannels(){
-	  return $this->channels;
-	}
+    public function check()
+    {
 
-                        	                   			private $promoName;
-    	                                                            
-	public function setPromoName($promoName){
-		$this->promoName = $promoName;
-         $this->apiParas["promo_name"] = $promoName;
-	}
+    }
 
-	public function getPromoName(){
-	  return $this->promoName;
-	}
+    public function putOtherTextParam($key, $value)
+    {
+        $this->apiParas[$key] = $value;
+        $this->$key = $value;
+    }
 
-                        	                   			private $promoAdviceWord;
-    	                                                                        
-	public function setPromoAdviceWord($promoAdviceWord){
-		$this->promoAdviceWord = $promoAdviceWord;
-         $this->apiParas["promo_advice_word"] = $promoAdviceWord;
-	}
+    private $wareId;
 
-	public function getPromoAdviceWord(){
-	  return $this->promoAdviceWord;
-	}
+    public function setWareId($wareId)
+    {
+        $this->wareId = $wareId;
+        $this->apiParas["ware_id"] = $wareId;
+    }
 
-                        	                   			private $actLinkName;
-    	                                                                        
-	public function setActLinkName($actLinkName){
-		$this->actLinkName = $actLinkName;
-         $this->apiParas["act_link_name"] = $actLinkName;
-	}
+    public function getWareId()
+    {
+        return $this->wareId;
+    }
 
-	public function getActLinkName(){
-	  return $this->actLinkName;
-	}
+    private $channels;
 
-                        	                   			private $actLinkUrl;
-    	                                                                        
-	public function setActLinkUrl($actLinkUrl){
-		$this->actLinkUrl = $actLinkUrl;
-         $this->apiParas["act_link_url"] = $actLinkUrl;
-	}
+    public function setChannels($channels)
+    {
+        $this->channels = $channels;
+        $this->apiParas["channels"] = $channels;
+    }
 
-	public function getActLinkUrl(){
-	  return $this->actLinkUrl;
-	}
+    public function getChannels()
+    {
+        return $this->channels;
+    }
 
-                        	                   			private $startTime;
-    	                                                            
-	public function setStartTime($startTime){
-		$this->startTime = $startTime;
-         $this->apiParas["start_time"] = $startTime;
-	}
+    private $promoName;
 
-	public function getStartTime(){
-	  return $this->startTime;
-	}
+    public function setPromoName($promoName)
+    {
+        $this->promoName = $promoName;
+        $this->apiParas["promo_name"] = $promoName;
+    }
 
-                        	                   			private $endTime;
-    	                                                            
-	public function setEndTime($endTime){
-		$this->endTime = $endTime;
-         $this->apiParas["end_time"] = $endTime;
-	}
+    public function getPromoName()
+    {
+        return $this->promoName;
+    }
 
-	public function getEndTime(){
-	  return $this->endTime;
-	}
+    private $promoAdviceWord;
 
-                        	                   			private $numAvailable;
-    	                                                            
-	public function setNumAvailable($numAvailable){
-		$this->numAvailable = $numAvailable;
-         $this->apiParas["num_available"] = $numAvailable;
-	}
+    public function setPromoAdviceWord($promoAdviceWord)
+    {
+        $this->promoAdviceWord = $promoAdviceWord;
+        $this->apiParas["promo_advice_word"] = $promoAdviceWord;
+    }
 
-	public function getNumAvailable(){
-	  return $this->numAvailable;
-	}
+    public function getPromoAdviceWord()
+    {
+        return $this->promoAdviceWord;
+    }
 
-                        	                   			private $phoneLogo;
-    	                                                            
-	public function setPhoneLogo($phoneLogo){
-		$this->phoneLogo = $phoneLogo;
-         $this->apiParas["phone_logo"] = $phoneLogo;
-	}
+    private $actLinkName;
 
-	public function getPhoneLogo(){
-	  return $this->phoneLogo;
-	}
+    public function setActLinkName($actLinkName)
+    {
+        $this->actLinkName = $actLinkName;
+        $this->apiParas["act_link_name"] = $actLinkName;
+    }
 
-                        	                   			private $discountAmount;
-    	                                                            
-	public function setDiscountAmount($discountAmount){
-		$this->discountAmount = $discountAmount;
-         $this->apiParas["discount_amount"] = $discountAmount;
-	}
+    public function getActLinkName()
+    {
+        return $this->actLinkName;
+    }
 
-	public function getDiscountAmount(){
-	  return $this->discountAmount;
-	}
+    private $actLinkUrl;
 
-                        	                   			private $discountPrice;
-    	                                                            
-	public function setDiscountPrice($discountPrice){
-		$this->discountPrice = $discountPrice;
-         $this->apiParas["discount_price"] = $discountPrice;
-	}
+    public function setActLinkUrl($actLinkUrl)
+    {
+        $this->actLinkUrl = $actLinkUrl;
+        $this->apiParas["act_link_url"] = $actLinkUrl;
+    }
 
-	public function getDiscountPrice(){
-	  return $this->discountPrice;
-	}
+    public function getActLinkUrl()
+    {
+        return $this->actLinkUrl;
+    }
 
-                        	                   			private $discountType;
-    	                                                            
-	public function setDiscountType($discountType){
-		$this->discountType = $discountType;
-         $this->apiParas["discount_type"] = $discountType;
-	}
+    private $startTime;
 
-	public function getDiscountType(){
-	  return $this->discountType;
-	}
+    public function setStartTime($startTime)
+    {
+        $this->startTime = $startTime;
+        $this->apiParas["start_time"] = $startTime;
+    }
 
-                        	                   			private $rebateFile;
-    	                                                            
-	public function setRebateFile($rebateFile){
-		$this->rebateFile = $rebateFile;
-         $this->apiParas["rebate_file"] = $rebateFile;
-	}
+    public function getStartTime()
+    {
+        return $this->startTime;
+    }
 
-	public function getRebateFile(){
-	  return $this->rebateFile;
-	}
+    private $endTime;
 
-                        	                   			private $rebateName;
-    	                                                            
-	public function setRebateName($rebateName){
-		$this->rebateName = $rebateName;
-         $this->apiParas["rebate_name"] = $rebateName;
-	}
+    public function setEndTime($endTime)
+    {
+        $this->endTime = $endTime;
+        $this->apiParas["end_time"] = $endTime;
+    }
 
-	public function getRebateName(){
-	  return $this->rebateName;
-	}
+    public function getEndTime()
+    {
+        return $this->endTime;
+    }
 
-                        	                   			private $overlyingSuit;
-    	                                                            
-	public function setOverlyingSuit($overlyingSuit){
-		$this->overlyingSuit = $overlyingSuit;
-         $this->apiParas["overlying_suit"] = $overlyingSuit;
-	}
+    private $numAvailable;
 
-	public function getOverlyingSuit(){
-	  return $this->overlyingSuit;
-	}
+    public function setNumAvailable($numAvailable)
+    {
+        $this->numAvailable = $numAvailable;
+        $this->apiParas["num_available"] = $numAvailable;
+    }
 
-                            }
+    public function getNumAvailable()
+    {
+        return $this->numAvailable;
+    }
+
+    private $phoneLogo;
+
+    public function setPhoneLogo($phoneLogo)
+    {
+        $this->phoneLogo = $phoneLogo;
+        $this->apiParas["phone_logo"] = $phoneLogo;
+    }
+
+    public function getPhoneLogo()
+    {
+        return $this->phoneLogo;
+    }
+
+    private $discountAmount;
+
+    public function setDiscountAmount($discountAmount)
+    {
+        $this->discountAmount = $discountAmount;
+        $this->apiParas["discount_amount"] = $discountAmount;
+    }
+
+    public function getDiscountAmount()
+    {
+        return $this->discountAmount;
+    }
+
+    private $discountPrice;
+
+    public function setDiscountPrice($discountPrice)
+    {
+        $this->discountPrice = $discountPrice;
+        $this->apiParas["discount_price"] = $discountPrice;
+    }
+
+    public function getDiscountPrice()
+    {
+        return $this->discountPrice;
+    }
+
+    private $discountType;
+
+    public function setDiscountType($discountType)
+    {
+        $this->discountType = $discountType;
+        $this->apiParas["discount_type"] = $discountType;
+    }
+
+    public function getDiscountType()
+    {
+        return $this->discountType;
+    }
+
+    private $rebateFile;
+
+    public function setRebateFile($rebateFile)
+    {
+        $this->rebateFile = $rebateFile;
+        $this->apiParas["rebate_file"] = $rebateFile;
+    }
+
+    public function getRebateFile()
+    {
+        return $this->rebateFile;
+    }
+
+    private $rebateName;
+
+    public function setRebateName($rebateName)
+    {
+        $this->rebateName = $rebateName;
+        $this->apiParas["rebate_name"] = $rebateName;
+    }
+
+    public function getRebateName()
+    {
+        return $this->rebateName;
+    }
+
+    private $overlyingSuit;
+
+    public function setOverlyingSuit($overlyingSuit)
+    {
+        $this->overlyingSuit = $overlyingSuit;
+        $this->apiParas["overlying_suit"] = $overlyingSuit;
+    }
+
+    public function getOverlyingSuit()
+    {
+        return $this->overlyingSuit;
+    }
+
+}
 
 
 

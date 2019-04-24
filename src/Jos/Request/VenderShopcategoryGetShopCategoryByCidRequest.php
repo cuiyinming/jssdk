@@ -1,10 +1,9 @@
 <?php
-namespace Jos\Request;
-use Jos\RequestCheckUtil;
 
 namespace Jos\Request;
 
 use Jos\RequestCheckUtil;
+
 
 class VenderShopcategoryGetShopCategoryByCidRequest
 {
@@ -28,14 +27,14 @@ class VenderShopcategoryGetShopCategoryByCidRequest
     public function putOtherTextParam($key, $value)
     {
         $this->apiParas[$key] = $value;
-        $this->$key           = $value;
+        $this->$key = $value;
     }
 
     private $cid;
 
     public function setCid($cid)
     {
-        $this->cid             = $cid;
+        $this->cid = $cid;
         $this->apiParas["cid"] = $cid;
     }
 
