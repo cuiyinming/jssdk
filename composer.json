@@ -1,0 +1,29 @@
+{
+    "name": "gengyun/jingdong-jos-client",
+    "description": "JingDong jos client(SDK) for laravel 5.7",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ym cui",
+            "email": "cuiyinming@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GengYun\\JosClient\\": "src/",
+            "Jos\\": "src/Jos/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GengYun\\JosClient\\JosClientServiceProvider"
+            ]
+        }
+    }
+}
