@@ -60,7 +60,7 @@ class JosClient
 
         if (is_array($postFields) && 0 < count($postFields)) {
             $postBodyString = "";
-            $postMultipart  = false;
+            $postMultipart = false;
             foreach ($postFields as $k => $v) {
                 if (is_array($v)) {
                     continue;
@@ -106,11 +106,11 @@ class JosClient
 
     protected function logCommunicationError($apiName, $requestUrl, $errorCode, $responseTxt)
     {
-        $localIp                   = isset($_SERVER["SERVER_ADDR"]) ? $_SERVER["SERVER_ADDR"] : "CLI";
-        $logger                    = new JosLogger;
-        $logger->conf["log_file"]  = rtrim($this->logPath, '\\/') . '/' . "logs/jd/jos_comm_err_" . $this->appKey . "_" . date("Y-m-d") . ".log";
+        $localIp = isset($_SERVER["SERVER_ADDR"]) ? $_SERVER["SERVER_ADDR"] : "CLI";
+        $logger = new JosLogger;
+        $logger->conf["log_file"] = rtrim($this->logPath, '\\/') . '/' . "logs/jd/jos_comm_err_" . $this->appKey . "_" . date("Y-m-d") . ".log";
         $logger->conf["separator"] = "^_^";
-        $logData                   = array(
+        $logData = array(
             date("Y-m-d H:i:s"),
             $apiName,
             $this->appKey,
@@ -127,16 +127,16 @@ class JosClient
     public function execute($request, $access_token = null)
     {
         //组装系统参数
-        $sysParams["app_key"]   = $this->appKey;
-        $sysParams["v"]         = $this->version;
-        $sysParams["method"]    = $request->getApiMethodName();
+        $sysParams["app_key"] = $this->appKey;
+        $sysParams["v"] = $this->version;
+        $sysParams["method"] = $request->getApiMethodName();
         $sysParams["timestamp"] = date("Y-m-d H:i:s");
         if (null != $access_token) {
             $sysParams["access_token"] = $access_token;
         }
 
         //获取业务参数
-        $apiParams                        = $request->getApiParas();
+        $apiParams = $request->getApiParas();
         $sysParams[$this->json_param_key] = $apiParams;
 
         //签名
@@ -151,9 +151,9 @@ class JosClient
             $resp = $this->curl($requestUrl, $apiParams);
         } catch (\Exception $e) {
             $this->logCommunicationError($sysParams["method"], $requestUrl, "HTTP_ERROR_" . $e->getCode(), $e->getMessage());
-            $result         = [];
+            $result = [];
             $result['code'] = $e->getCode();
-            $result['msg']  = $e->getMessage();
+            $result['msg'] = $e->getMessage();
             return $result;
         }
 
@@ -182,9 +182,9 @@ class JosClient
         if (false === $respWellFormed) {
             $this->logCommunicationError($sysParams["method"], $requestUrl,
                 "HTTP_RESPONSE_NOT_WELL_FORMED", $resp);
-            $result         = [];
+            $result = [];
             $result['code'] = 0;
-            $result['msg']  = "HTTP_RESPONSE_NOT_WELL_FORMED";
+            $result['msg'] = "HTTP_RESPONSE_NOT_WELL_FORMED";
             return $result;
         }
 

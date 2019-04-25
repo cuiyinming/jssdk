@@ -24,3 +24,29 @@ $resp = josclient->execute($req,$token);
 
 dd($resp);
 ```
+### 上面示例中的 $token 获取示例（基于最新的京东文档）
+
+```
+    public static function urlJdToken($code = '')
+    {
+        $config = config('common.jd_config');
+        $c_appkey = $config['appkey'];
+        $c_secret = $config['secretKey'];
+        $redirect_uri = $config['redirect_uri'];
+        if ($code != "") {
+            $base_url = 'https://open-oauth.jd.com/oauth2/access_token?app_key=' . $c_appkey . '&app_secret=' . $c_secret . '&grant_type=authorization_code&code=' . $code;
+            $access_info = self::$curl->get($base_url);
+            //如果有错误则返回错误
+            if (isset($access_info->msg) && $access_info->msg != '') {
+                return ['msg' => $access_info->msg];
+            }
+            //把获取到的信息入库或者存入文件
+            //do some thing 
+            saveDb($access_info);
+            
+        } else {
+            //初始化跳转到授权页面
+            return Redirect::to('https://open-oauth.jd.com/oauth2/to_login?app_key=' . $c_appkey . '&response_type=code&redirect_uri=' . $redirect_uri . '&state=9&scope=snsapi_base');
+        }
+    }
+```
